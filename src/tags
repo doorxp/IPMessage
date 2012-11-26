@@ -1,0 +1,1279 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABOUT_DIALOG_H	about_dialog.h	18;"	d
+AR	Makefile	/^AR            = ar cqs$/;"	m
+AboutDialog	about_dialog.cpp	/^AboutDialog::AboutDialog(QWidget *parent)$/;"	f	class:AboutDialog
+AboutDialog	about_dialog.h	/^class AboutDialog : public QDialog$/;"	c
+AddBroadcast	setup_window.cpp	/^void SetupWindow::AddBroadcast()$/;"	f	class:SetupWindow
+AuHeader	sound.cpp	/^} AuHeader;$/;"	t	typeref:struct:au_header	file:
+BE_INT	sound.cpp	83;"	d	file:
+BE_INT	sound.cpp	89;"	d	file:
+BE_SHORT	sound.cpp	82;"	d	file:
+BE_SHORT	sound.cpp	88;"	d	file:
+BLOCK_SIZE	serve_socket.cpp	39;"	d	file:
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMMAND_SEPERATOR	constants.h	37;"	d
+COMPANY	constants.h	22;"	d
+COMPOSE_ID	sound.cpp	79;"	d	file:
+COMPOSE_ID	sound.cpp	85;"	d	file:
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+CONSTANTS_H	constants.h	18;"	d
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+ContributorTab	about_dialog.cpp	/^ContributorTab::ContributorTab(QWidget *parent)$/;"	f	class:ContributorTab
+ContributorTab	about_dialog.h	/^class ContributorTab : public QWidget$/;"	c
+DEFAULT_FORMAT	sound.cpp	31;"	d	file:
+DEFAULT_SPEED	sound.cpp	32;"	d	file:
+DEFINES	Makefile	/^DEFINES       = -DQT_WEBKIT -DDATA_PATH=$(DATA_PATH) -DSOUND_PATH=$(SOUND_PATH) -DTRANSLATION_PATH=$(TRANSLATION_PATH) -DICON_PATH=$(ICON_PATH) -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIR_DIALOG_H	dir_dialog.h	18;"	d
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/unix.conf \\$/;"	m
+DelBroadcast	setup_window.cpp	/^void SetupWindow::DelBroadcast()$/;"	f	class:SetupWindow
+DetailSetupDialog	setup_window.cpp	/^DetailSetupDialog::DetailSetupDialog(QWidget *parent)$/;"	f	class:DetailSetupDialog
+DetailSetupDialog	setup_window.h	/^class DetailSetupDialog : public QDialog$/;"	c
+DetailTab	setup_window.cpp	/^DetailTab::DetailTab(QWidget *parent)$/;"	f	class:DetailTab
+DetailTab	setup_window.h	/^class DetailTab : public QWidget$/;"	c
+DirBlockModes	serve_socket.h	/^    enum DirBlockModes {$/;"	g	class:ServeSocket
+DirDialog	dir_dialog.cpp	/^DirDialog::DirDialog(SendFileModel *sendFileModel, QWidget *parent)$/;"	f	class:DirDialog
+DirDialog	dir_dialog.h	/^class DirDialog : public QDialog$/;"	c
+EXTEND_INFO_SEPERATOR	constants.h	38;"	d
+FILELIST_SEPARATOR	ipmsg.h	151;"	d
+FILE_NAME_AFTER	constants.h	41;"	d
+FILE_NAME_BEFORE	constants.h	40;"	d
+FILE_NAME_ESCAPE	constants.h	39;"	d
+FILE_SERVER_H	file_server.h	18;"	d
+FORMAT_DEFAULT	sound.cpp	34;"	d	file:
+FORMAT_RAW	sound.cpp	35;"	d	file:
+FORMAT_WAVE	sound.cpp	36;"	d	file:
+FileServer	file_server.cpp	/^FileServer::FileServer(QObject *parent)$/;"	f	class:FileServer
+FileServer	file_server.h	/^class FileServer : public QTcpServer$/;"	c
+GET_MODE	ipmsg.h	34;"	d
+GET_OPT	ipmsg.h	35;"	d
+GLOBAL_H	global.h	18;"	d
+Global	global.h	/^namespace Global$/;"	n
+HELPER_H	helper.h	18;"	d
+HOSTLIST_DUMMY	ipmsg.h	153;"	d
+HOSTLIST_SEPARATOR	ipmsg.h	152;"	d
+Helper	helper.h	/^class Helper {$/;"	c
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtNetwork -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I.moc$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IPMSG_ABSENCEOPT	ipmsg.h	75;"	d
+IPMSG_ANSENTRY	ipmsg.h	46;"	d
+IPMSG_ANSLIST	ipmsg.h	52;"	d
+IPMSG_ANSPUBKEY	ipmsg.h	72;"	d
+IPMSG_ANSREADMSG	ipmsg.h	59;"	d
+IPMSG_AUTORETOPT	ipmsg.h	87;"	d
+IPMSG_BLOWFISH_128	ipmsg.h	103;"	d
+IPMSG_BLOWFISH_128ALL	ipmsg.h	113;"	d
+IPMSG_BLOWFISH_128OLD	ipmsg.h	110;"	d
+IPMSG_BLOWFISH_256	ipmsg.h	104;"	d
+IPMSG_BROADCASTOPT	ipmsg.h	84;"	d
+IPMSG_BR_ABSENCE	ipmsg.h	47;"	d
+IPMSG_BR_ENTRY	ipmsg.h	44;"	d
+IPMSG_BR_EXIT	ipmsg.h	45;"	d
+IPMSG_BR_ISGETLIST	ipmsg.h	49;"	d
+IPMSG_BR_ISGETLIST2	ipmsg.h	53;"	d
+IPMSG_DEFAULT_PORT	ipmsg.h	39;"	d
+IPMSG_DELMSG	ipmsg.h	58;"	d
+IPMSG_DIALUPOPT	ipmsg.h	77;"	d
+IPMSG_ENCRYPTOPT	ipmsg.h	79;"	d
+IPMSG_FILEATTACHOPT	ipmsg.h	78;"	d
+IPMSG_FILE_ACL	ipmsg.h	147;"	d
+IPMSG_FILE_ALIASFNAME	ipmsg.h	148;"	d
+IPMSG_FILE_ARCHIVEOPT	ipmsg.h	129;"	d
+IPMSG_FILE_ATIME	ipmsg.h	142;"	d
+IPMSG_FILE_BDEV	ipmsg.h	121;"	d
+IPMSG_FILE_CDEV	ipmsg.h	120;"	d
+IPMSG_FILE_CREATETIME	ipmsg.h	143;"	d
+IPMSG_FILE_CREATOR	ipmsg.h	144;"	d
+IPMSG_FILE_CTIME	ipmsg.h	140;"	d
+IPMSG_FILE_DIR	ipmsg.h	117;"	d
+IPMSG_FILE_EXHIDDENOPT	ipmsg.h	128;"	d
+IPMSG_FILE_FIFO	ipmsg.h	122;"	d
+IPMSG_FILE_FILETYPE	ipmsg.h	145;"	d
+IPMSG_FILE_FINDERINFO	ipmsg.h	146;"	d
+IPMSG_FILE_GID	ipmsg.h	135;"	d
+IPMSG_FILE_GROUPNAME	ipmsg.h	136;"	d
+IPMSG_FILE_HIDDENOPT	ipmsg.h	127;"	d
+IPMSG_FILE_MAJORNO	ipmsg.h	138;"	d
+IPMSG_FILE_MINORNO	ipmsg.h	139;"	d
+IPMSG_FILE_MTIME	ipmsg.h	141;"	d
+IPMSG_FILE_PERM	ipmsg.h	137;"	d
+IPMSG_FILE_REGULAR	ipmsg.h	116;"	d
+IPMSG_FILE_RESFORK	ipmsg.h	123;"	d
+IPMSG_FILE_RETPARENT	ipmsg.h	118;"	d
+IPMSG_FILE_RONLYOPT	ipmsg.h	126;"	d
+IPMSG_FILE_SYMLINK	ipmsg.h	119;"	d
+IPMSG_FILE_SYSTEMOPT	ipmsg.h	130;"	d
+IPMSG_FILE_UID	ipmsg.h	133;"	d
+IPMSG_FILE_UNICODEFNAME	ipmsg.h	149;"	d
+IPMSG_FILE_USERNAME	ipmsg.h	134;"	d
+IPMSG_GETABSENCEINFO	ipmsg.h	64;"	d
+IPMSG_GETDIRFILES	ipmsg.h	69;"	d
+IPMSG_GETFILEDATA	ipmsg.h	67;"	d
+IPMSG_GETINFO	ipmsg.h	61;"	d
+IPMSG_GETLIST	ipmsg.h	51;"	d
+IPMSG_GETPUBKEY	ipmsg.h	71;"	d
+IPMSG_H	ipmsg.h	28;"	d
+IPMSG_MULTICASTOPT	ipmsg.h	85;"	d
+IPMSG_NEWMUTIOPT	ipmsg.h	91;"	d
+IPMSG_NOADDLISTOPT	ipmsg.h	92;"	d
+IPMSG_NOLOGOPT	ipmsg.h	90;"	d
+IPMSG_NOOPERATION	ipmsg.h	42;"	d
+IPMSG_NOPOPUPOPT	ipmsg.h	86;"	d
+IPMSG_OKGETLIST	ipmsg.h	50;"	d
+IPMSG_PASSWORDOPT	ipmsg.h	89;"	d
+IPMSG_RC2_128	ipmsg.h	101;"	d
+IPMSG_RC2_128ALL	ipmsg.h	112;"	d
+IPMSG_RC2_128OLD	ipmsg.h	109;"	d
+IPMSG_RC2_256	ipmsg.h	102;"	d
+IPMSG_RC2_40	ipmsg.h	100;"	d
+IPMSG_RC2_40ALL	ipmsg.h	111;"	d
+IPMSG_RC2_40OLD	ipmsg.h	108;"	d
+IPMSG_READCHECKOPT	ipmsg.h	93;"	d
+IPMSG_READMSG	ipmsg.h	57;"	d
+IPMSG_RECVMSG	ipmsg.h	56;"	d
+IPMSG_RELEASEFILES	ipmsg.h	68;"	d
+IPMSG_RETRYOPT	ipmsg.h	88;"	d
+IPMSG_RSA_1024	ipmsg.h	98;"	d
+IPMSG_RSA_2048	ipmsg.h	99;"	d
+IPMSG_RSA_512	ipmsg.h	97;"	d
+IPMSG_SECRETEXOPT	ipmsg.h	94;"	d
+IPMSG_SECRETOPT	ipmsg.h	83;"	d
+IPMSG_SENDABSENCEINFO	ipmsg.h	65;"	d
+IPMSG_SENDCHECKOPT	ipmsg.h	82;"	d
+IPMSG_SENDINFO	ipmsg.h	62;"	d
+IPMSG_SENDMSG	ipmsg.h	55;"	d
+IPMSG_SERVEROPT	ipmsg.h	76;"	d
+IPMSG_SIGN_MD5	ipmsg.h	105;"	d
+IPMSG_VERSION	ipmsg.h	38;"	d
+InfoTab	about_dialog.cpp	/^InfoTab::InfoTab(QWidget *parent)$/;"	f	class:InfoTab
+InfoTab	about_dialog.h	/^class InfoTab : public QWidget$/;"	c
+LE_INT	sound.cpp	81;"	d	file:
+LE_INT	sound.cpp	87;"	d	file:
+LE_SHORT	sound.cpp	80;"	d	file:
+LE_SHORT	sound.cpp	86;"	d	file:
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu -lasound -lQtGui -lQtNetwork -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LLONG_MAX	sound.cpp	28;"	d	file:
+LOCKFILE_H	lockfile.h	18;"	d
+LOCKMODE	lockfile.cpp	38;"	d	file:
+LicenseTab	about_dialog.cpp	/^LicenseTab::LicenseTab(QWidget *parent)$/;"	f	class:LicenseTab
+LicenseTab	about_dialog.h	/^class LicenseTab : public QWidget$/;"	c
+LockFile	lockfile.cpp	/^LockFile::LockFile(QObject *parent)$/;"	f	class:LockFile
+LockFile	lockfile.h	/^class LockFile : public QObject$/;"	c
+LogTab	setup_window.cpp	/^LogTab::LogTab(QWidget *parent)$/;"	f	class:LogTab
+LogTab	setup_window.h	/^class LogTab : public QWidget$/;"	c
+MAIN_WINDOW_H	main_window.h	18;"	d
+MAXBUFF	serve_socket.cpp	37;"	d	file:
+MAX_RE_SEND_TIMES	constants.h	35;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MSG_ADDITION_INFO_POS	constants.h	30;"	d
+MSG_BASE_H	msg_base.h	18;"	d
+MSG_EXTENDED_INFO_POS	constants.h	31;"	d
+MSG_FLAGS_POS	constants.h	29;"	d
+MSG_H	msg.h	18;"	d
+MSG_HOST_POS	constants.h	28;"	d
+MSG_LOG_NAME_POS	constants.h	27;"	d
+MSG_NORMAL_FIELD_COUNT	constants.h	33;"	d
+MSG_PACKET_NO_POS	constants.h	26;"	d
+MSG_READED_WINDOW_H	msg_readed_window.h	18;"	d
+MSG_SERVER_H	msg_server.h	18;"	d
+MSG_THREAD_H	msg_thread.h	18;"	d
+MSG_VERSION_POS	constants.h	25;"	d
+MSG_WINDOW_H	msg_window.h	18;"	d
+MainWindow	main_window.cpp	/^MainWindow::MainWindow(QString text, QString ip,$/;"	f	class:MainWindow
+MainWindow	main_window.h	/^class MainWindow : public QMainWindow$/;"	c
+Msg	msg.cpp	/^Msg::Msg(const MsgBase &m)$/;"	f	class:Msg
+Msg	msg.h	/^    Msg() : p(0), use(new qint32(1)) {}$/;"	f	class:Msg
+Msg	msg.h	/^    Msg(const Msg &m): p(m.p), use(m.use) { ++*use; }$/;"	f	class:Msg
+Msg	msg.h	/^class Msg$/;"	c
+MsgBase	msg_base.cpp	/^MsgBase::MsgBase(QHostAddress address, quint16 port, QString additionalInfo,$/;"	f	class:MsgBase
+MsgBase	msg_base.cpp	/^MsgBase::MsgBase(QString packet, QHostAddress address, quint16 port)$/;"	f	class:MsgBase
+MsgBase	msg_base.h	/^    MsgBase() {}$/;"	f	class:MsgBase
+MsgBase	msg_base.h	/^class MsgBase$/;"	c
+MsgReadedWindow	msg_readed_window.cpp	/^MsgReadedWindow::MsgReadedWindow(QString nickName)$/;"	f	class:MsgReadedWindow
+MsgReadedWindow	msg_readed_window.h	/^class MsgReadedWindow : public QWidget$/;"	c
+MsgServer	msg_server.cpp	/^MsgServer::MsgServer(QObject *parent)$/;"	f	class:MsgServer
+MsgServer	msg_server.h	/^class MsgServer : public QObject$/;"	c
+MsgThread	msg_thread.h	/^    MsgThread(QObject *parent = 0) :QThread(parent) {}$/;"	f	class:MsgThread
+MsgThread	msg_thread.h	/^class MsgThread : public QThread$/;"	c
+MsgWindow	msg_window.cpp	/^MsgWindow::MsgWindow(Msg msg, QWidget *parent)$/;"	f	class:MsgWindow
+MsgWindow	msg_window.h	/^class MsgWindow : public QWidget$/;"	c
+NAME_COLUMN_NUM	send_file_window.h	22;"	d
+Normal	recv_file_map.h	/^    enum States { Normal, Retry };$/;"	e	enum:RecvFileMap::States
+NormalBlockMode	serve_socket.h	/^        NormalBlockMode,$/;"	e	enum:ServeSocket::DirBlockModes
+NotRecv	recv_file.h	/^    enum States { NotRecv, ToRecv, RecvOk, RecvFail };$/;"	e	enum:RecvFile::States
+NotSend	msg_base.h	/^        NotSend = 0, Sending = 1, SendOk = 2, SendFail = 3, SendAckOk = 4$/;"	e	enum:MsgBase::States
+NotSend	send_file.h	/^    enum States { NotSend, SendOk, SendFail };$/;"	e	enum:SendFile::States
+NotTransfer	recv_file_map.h	/^    enum TransferStates { NotTransfer, Transfer };$/;"	e	enum:RecvFileMap::TransferStates
+NotTransfer	send_file_map.h	/^    enum States { NotTransfer, Transfer };$/;"	e	enum:SendFileMap::States
+OBJECTS	Makefile	/^OBJECTS       = .obj\/about_dialog.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .obj\/$/;"	m
+ONE_KB	constants.h	87;"	d
+ONE_MB	constants.h	88;"	d
+OWNER_H	owner.h	18;"	d
+OtherTab	setup_window.cpp	/^OtherTab::OtherTab(QWidget *parent)$/;"	f	class:OtherTab
+OtherTab	setup_window.h	/^class OtherTab : public QWidget$/;"	c
+Owner	owner.cpp	/^Owner::Owner(QString packet, QHostAddress address, quint16 port)$/;"	f	class:Owner
+Owner	owner.h	/^    Owner() {}$/;"	f	class:Owner
+Owner	owner.h	/^class Owner$/;"	c
+PATH_COLUMN_NUM	send_file_window.h	24;"	d
+PREFERENCES_H	preferences.h	18;"	d
+PROGRAM	constants.h	23;"	d
+Preferences	preferences.cpp	/^Preferences::Preferences()$/;"	f	class:Preferences
+Preferences	preferences.h	/^class Preferences$/;"	c
+QIPMSG_CAPACITY	constants.h	81;"	d
+QIPMSG_H	qipmsg.h	18;"	d
+QIpMsg	qipmsg.cpp	/^QIpMsg::QIpMsg(QObject *parent)$/;"	f	class:QIpMsg
+QIpMsg	qipmsg.h	/^class QIpMsg : public QObject$/;"	c
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake-qt4$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = qipmsg$/;"	m
+Q_OBJECT	serve_socket.h	/^    Q_OBJECT;$/;"	m	class:ServeSocket
+Q_OBJECT	transfer_file_model.h	/^    Q_OBJECT;$/;"	m	class:TransferFileModel
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RECVFILESORTFILTERPROXYMODEL_H	recvfilesortfilterproxymodel.h	18;"	d
+RECV_FILE_ATTR_POS	constants.h	48;"	d
+RECV_FILE_DIR	constants.h	56;"	d
+RECV_FILE_EXTEND_ATTR_POS	constants.h	49;"	d
+RECV_FILE_FINISH_DIALOG_H	recv_file_finish_dialog.h	18;"	d
+RECV_FILE_H	recv_file.h	18;"	d
+RECV_FILE_HANDLE_H	recv_file_handle.h	18;"	d
+RECV_FILE_ID_POS	constants.h	44;"	d
+RECV_FILE_MAP_H	recv_file_map.h	18;"	d
+RECV_FILE_MODEL_H	recv_file_model.h	18;"	d
+RECV_FILE_MTIME_POS	constants.h	47;"	d
+RECV_FILE_NAME_POS	constants.h	45;"	d
+RECV_FILE_REGULAR	constants.h	55;"	d
+RECV_FILE_RETPARENT	constants.h	57;"	d
+RECV_FILE_SIZE_POS	constants.h	46;"	d
+RECV_FILE_THREAD_H	recv_file_thread.h	18;"	d
+RECV_FILE_TRANSFER_H	recv_file_transfer.h	18;"	d
+RECV_FILE_VIEW_ID_POS	constants.h	51;"	d
+RECV_FILE_VIEW_NAME_POS	constants.h	52;"	d
+RECV_FILE_VIEW_SIZE_POS	constants.h	53;"	d
+RECV_FILE_WINDOW_H	recv_file_window.h	18;"	d
+RECV_MSG_H	recv_msg.h	18;"	d
+REQUST_FILE_FILE_ID_POSITION	serve_socket.cpp	35;"	d	file:
+REQUST_FILE_OFFSET_POSITION	serve_socket.cpp	36;"	d	file:
+REQUST_FILE_PACKET_ID_POSITION	serve_socket.cpp	34;"	d	file:
+RETRY_RECV_FILE_DIALOG_H	retry_recv_file_dialog.h	18;"	d
+RecvFail	recv_file.h	/^    enum States { NotRecv, ToRecv, RecvOk, RecvFail };$/;"	e	enum:RecvFile::States
+RecvFile	recv_file.cpp	/^RecvFile::RecvFile(QString ip, QString packetNoString, QString info)$/;"	f	class:RecvFile
+RecvFile	recv_file.h	/^class RecvFile$/;"	c
+RecvFileFinishDialog	recv_file_finish_dialog.cpp	/^RecvFileFinishDialog::RecvFileFinishDialog(RecvFileMap *recvFileMap,$/;"	f	class:RecvFileFinishDialog
+RecvFileFinishDialog	recv_file_finish_dialog.h	/^class RecvFileFinishDialog : public QDialog$/;"	c
+RecvFileHandle	recv_file_handle.cpp	/^RecvFileHandle::RecvFileHandle(const RecvFile &recvFile)$/;"	f	class:RecvFileHandle
+RecvFileHandle	recv_file_handle.h	/^    RecvFileHandle() : p(0), use(new qint32(1)) {}$/;"	f	class:RecvFileHandle
+RecvFileHandle	recv_file_handle.h	/^    RecvFileHandle(const RecvFileHandle &h): p(h.p), use(h.use) { ++*use; }$/;"	f	class:RecvFileHandle
+RecvFileHandle	recv_file_handle.h	/^class RecvFileHandle$/;"	c
+RecvFileMap	recv_file_map.h	/^    RecvFileMap(): m_currentId(-1), m_dirCount(0), m_regularFileCount(0),$/;"	f	class:RecvFileMap
+RecvFileMap	recv_file_map.h	/^class RecvFileMap$/;"	c
+RecvFileModel	recv_file_model.h	/^    RecvFileModel(): m_model(0) { createModel(); }$/;"	f	class:RecvFileModel
+RecvFileModel	recv_file_model.h	/^class RecvFileModel$/;"	c
+RecvFileSortFilterProxyModel	recvfilesortfilterproxymodel.cpp	/^RecvFileSortFilterProxyModel::RecvFileSortFilterProxyModel(QObject *parent)$/;"	f	class:RecvFileSortFilterProxyModel
+RecvFileSortFilterProxyModel	recvfilesortfilterproxymodel.h	/^class RecvFileSortFilterProxyModel : public QSortFilterProxyModel$/;"	c
+RecvFileThread	recv_file_thread.h	/^    RecvFileThread(RecvFileMap *recvFileMap, QObject *parent = 0)$/;"	f	class:RecvFileThread
+RecvFileThread	recv_file_thread.h	/^class RecvFileThread : public QThread$/;"	c
+RecvFileTransfer	recv_file_transfer.h	/^    RecvFileTransfer(RecvFileMap *recvFileMap, QObject *parent = 0)$/;"	f	class:RecvFileTransfer
+RecvFileTransfer	recv_file_transfer.h	/^class RecvFileTransfer : public QObject$/;"	c
+RecvFileWindow	recv_file_window.cpp	/^RecvFileWindow::RecvFileWindow(QWidget *parent)$/;"	f	class:RecvFileWindow
+RecvFileWindow	recv_file_window.h	/^class RecvFileWindow : public QWidget$/;"	c
+RecvMsg	recv_msg.h	/^    RecvMsg() {}$/;"	f	class:RecvMsg
+RecvMsg	recv_msg.h	/^    RecvMsg(QString packet, QHostAddress address, quint16 port)$/;"	f	class:RecvMsg
+RecvMsg	recv_msg.h	/^class RecvMsg : public MsgBase$/;"	c
+RecvOk	recv_file.h	/^    enum States { NotRecv, ToRecv, RecvOk, RecvFail };$/;"	e	enum:RecvFile::States
+RequsetFile	serve_socket.cpp	/^struct RequsetFile$/;"	s	file:
+RetParentBlockMode	serve_socket.h	/^        RetParentBlockMode$/;"	e	enum:ServeSocket::DirBlockModes
+Retry	recv_file_map.h	/^    enum States { Normal, Retry };$/;"	e	enum:RecvFileMap::States
+RetryRecvFileDialog	retry_recv_file_dialog.cpp	/^RetryRecvFileDialog::RetryRecvFileDialog(RecvFileMap *recvFileMap,$/;"	f	class:RetryRecvFileDialog
+RetryRecvFileDialog	retry_recv_file_dialog.h	/^class RetryRecvFileDialog : public QDialog$/;"	c
+SEARCH_USER_DIALOG_H	search_user_dialog.h	18;"	d
+SED	Makefile	/^SED           = sed$/;"	m
+SEND_FILE_H	send_file.h	18;"	d
+SEND_FILE_HANDLE_H	send_file_handle.h	18;"	d
+SEND_FILE_MANAGER_H	send_file_manager.h	18;"	d
+SEND_FILE_MAP_H	send_file_map.h	18;"	d
+SEND_FILE_MODEL_H	send_file_model.h	18;"	d
+SEND_FILE_THREAD_H	send_file_thread.h	18;"	d
+SEND_FILE_VIEW_LOCATION_POS	constants.h	62;"	d
+SEND_FILE_VIEW_NAME_POS	constants.h	60;"	d
+SEND_FILE_VIEW_PATH_POS	constants.h	63;"	d
+SEND_FILE_VIEW_SIZE_POS	constants.h	61;"	d
+SEND_FILE_WINDOW_H	send_file_window.h	18;"	d
+SEND_MSG_H	send_msg.h	18;"	d
+SEND_MSG_PROCESS_INTERVAL	constants.h	34;"	d
+SERVE_SOCKET_H	serve_socket.h	18;"	d
+SETUP_WINDOW_H	setup_window.h	18;"	d
+SIZECOLUMNDELEGATE_H	sizecolumndelegate.h	18;"	d
+SIZE_COLUMN_NUM	send_file_window.h	23;"	d
+SOUND_H	sound.h	18;"	d
+SOUND_THREAD_H	sound_thread.h	18;"	d
+SOURCES	Makefile	/^SOURCES       = about_dialog.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYSTRAY_H	systray.h	18;"	d
+SearchUserDialog	search_user_dialog.cpp	/^SearchUserDialog::SearchUserDialog(QWidget *parent)$/;"	f	class:SearchUserDialog
+SearchUserDialog	search_user_dialog.h	/^class SearchUserDialog : public QDialog$/;"	c
+SendAckOk	msg_base.h	/^        NotSend = 0, Sending = 1, SendOk = 2, SendFail = 3, SendAckOk = 4$/;"	e	enum:MsgBase::States
+SendFail	msg_base.h	/^        NotSend = 0, Sending = 1, SendOk = 2, SendFail = 3, SendAckOk = 4$/;"	e	enum:MsgBase::States
+SendFail	send_file.h	/^    enum States { NotSend, SendOk, SendFail };$/;"	e	enum:SendFile::States
+SendFile	send_file.cpp	/^SendFile::SendFile(QString path)$/;"	f	class:SendFile
+SendFile	send_file.h	/^class SendFile : public QFileInfo$/;"	c
+SendFileHandle	send_file_handle.cpp	/^SendFileHandle::SendFileHandle(const SendFile &recvFile)$/;"	f	class:SendFileHandle
+SendFileHandle	send_file_handle.h	/^    SendFileHandle() : p(0), use(new qint32(1)) {}$/;"	f	class:SendFileHandle
+SendFileHandle	send_file_handle.h	/^    SendFileHandle(const SendFileHandle &h): p(h.p), use(h.use) { ++*use; }$/;"	f	class:SendFileHandle
+SendFileHandle	send_file_handle.h	/^class SendFileHandle$/;"	c
+SendFileManager	send_file_manager.h	/^    SendFileManager() {}$/;"	f	class:SendFileManager
+SendFileManager	send_file_manager.h	/^class SendFileManager : public QObject$/;"	c
+SendFileMap	send_file_map.cpp	/^SendFileMap::SendFileMap(QObject *parent)$/;"	f	class:SendFileMap
+SendFileMap	send_file_map.h	/^class SendFileMap : public QObject$/;"	c
+SendFileModel	send_file_model.h	/^    SendFileModel(QObject *parent = 0): QObject(parent) { createModel(); }$/;"	f	class:SendFileModel
+SendFileModel	send_file_model.h	/^class SendFileModel : public QObject$/;"	c
+SendFileThread	send_file_thread.cpp	/^SendFileThread::SendFileThread(int socketDescriptor, QObject *parent)$/;"	f	class:SendFileThread
+SendFileThread	send_file_thread.h	/^class SendFileThread : public QThread$/;"	c
+SendFileWindow	send_file_window.cpp	/^SendFileWindow::SendFileWindow(SendFileModel *sendFileModel, QWidget *parent)$/;"	f	class:SendFileWindow
+SendFileWindow	send_file_window.h	/^class SendFileWindow : public QWidget$/;"	c
+SendMsg	send_msg.h	/^    SendMsg() {}$/;"	f	class:SendMsg
+SendMsg	send_msg.h	/^    SendMsg(QHostAddress address, quint16 port, QString additionalInfo,$/;"	f	class:SendMsg
+SendMsg	send_msg.h	/^class SendMsg : public MsgBase$/;"	c
+SendOk	msg_base.h	/^        NotSend = 0, Sending = 1, SendOk = 2, SendFail = 3, SendAckOk = 4$/;"	e	enum:MsgBase::States
+SendOk	send_file.h	/^    enum States { NotSend, SendOk, SendFail };$/;"	e	enum:SendFile::States
+Sending	msg_base.h	/^        NotSend = 0, Sending = 1, SendOk = 2, SendFail = 3, SendAckOk = 4$/;"	e	enum:MsgBase::States
+ServeSocket	serve_socket.cpp	/^ServeSocket::ServeSocket(int socketDescriptor, QObject *parent)$/;"	f	class:ServeSocket
+ServeSocket	serve_socket.h	/^class ServeSocket : public QObject$/;"	c
+SetupWindow	setup_window.cpp	/^SetupWindow::SetupWindow(QWidget *parent)$/;"	f	class:SetupWindow
+SetupWindow	setup_window.h	/^class SetupWindow : public QWidget$/;"	c
+SizeColumnDelegate	sizecolumndelegate.cpp	/^SizeColumnDelegate::SizeColumnDelegate(QObject *parent)$/;"	f	class:SizeColumnDelegate
+SizeColumnDelegate	sizecolumndelegate.h	/^class SizeColumnDelegate : public QItemDelegate$/;"	c
+Sound	sound.cpp	/^Sound::Sound(QString path)$/;"	f	class:Sound
+Sound	sound.h	/^class Sound$/;"	c
+SoundThread	sound_thread.h	/^    SoundThread(QObject *parent = 0)$/;"	f	class:SoundThread
+SoundThread	sound_thread.h	/^class SoundThread : public QThread$/;"	c
+States	msg_base.h	/^    enum States {$/;"	g	class:MsgBase
+States	recv_file.h	/^    enum States { NotRecv, ToRecv, RecvOk, RecvFail };$/;"	g	class:RecvFile
+States	recv_file_map.h	/^    enum States { Normal, Retry };$/;"	g	class:RecvFileMap
+States	send_file.h	/^    enum States { NotSend, SendOk, SendFail };$/;"	g	class:SendFile
+States	send_file_map.h	/^    enum States { NotTransfer, Transfer };$/;"	g	class:SendFileMap
+Systray	systray.cpp	/^Systray::Systray(QObject *parent)$/;"	f	class:Systray
+Systray	systray.h	/^class Systray : public QObject$/;"	c
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = qipmsg$/;"	m
+TRANSFERFILE_ATTR_BEGIN_POS	recv_file_transfer.cpp	353;"	d	file:
+TRANSFERFILE_NAME_POS	recv_file_transfer.cpp	350;"	d	file:
+TRANSFERFILE_SIZE_POS	recv_file_transfer.cpp	351;"	d	file:
+TRANSFERFILE_TYPE_POS	recv_file_transfer.cpp	352;"	d	file:
+TRANSFER_CODEC_H	transfer_codec.h	18;"	d
+TRANSFER_FILE_FILE_SIZE_LENGTH	constants.h	85;"	d
+TRANSFER_FILE_HEADER_SIZE_LENGTH	constants.h	84;"	d
+TRANSFER_FILE_MODEL_H	transfer_file_model.h	18;"	d
+TRANSFER_FILE_VIEW_FILE_COLUMN	constants.h	73;"	d
+TRANSFER_FILE_VIEW_KEY_COLUMN	constants.h	77;"	d
+TRANSFER_FILE_VIEW_NO_COLUMN	constants.h	72;"	d
+TRANSFER_FILE_VIEW_SIZE_COLUMN	constants.h	74;"	d
+TRANSFER_FILE_VIEW_STATS_COLUMN	constants.h	75;"	d
+TRANSFER_FILE_VIEW_USER_COLUMN	constants.h	76;"	d
+TRANSFER_FILE_WINDOW_H	transfer_file_window.h	18;"	d
+TRANSLATOR_H	translator.h	18;"	d
+ToRecv	recv_file.h	/^    enum States { NotRecv, ToRecv, RecvOk, RecvFail };$/;"	e	enum:RecvFile::States
+Transfer	recv_file_map.h	/^    enum TransferStates { NotTransfer, Transfer };$/;"	e	enum:RecvFileMap::TransferStates
+Transfer	send_file_map.h	/^    enum States { NotTransfer, Transfer };$/;"	e	enum:SendFileMap::States
+TransferCodec	transfer_codec.cpp	/^TransferCodec::TransferCodec()$/;"	f	class:TransferCodec
+TransferCodec	transfer_codec.h	/^class TransferCodec$/;"	c
+TransferFile	recv_file_transfer.cpp	/^struct TransferFile$/;"	s	file:
+TransferFileModel	transfer_file_model.cpp	/^TransferFileModel::TransferFileModel(QObject *parent)$/;"	f	class:TransferFileModel
+TransferFileModel	transfer_file_model.h	/^class TransferFileModel : public QObject$/;"	c
+TransferFileWindow	transfer_file_window.cpp	/^TransferFileWindow::TransferFileWindow(QWidget *parent)$/;"	f	class:TransferFileWindow
+TransferFileWindow	transfer_file_window.h	/^class TransferFileWindow : public QWidget$/;"	c
+TransferStates	recv_file_map.h	/^    enum TransferStates { NotTransfer, Transfer };$/;"	g	class:RecvFileMap
+TransferTab	setup_window.cpp	/^TransferTab::TransferTab(QWidget *parent)$/;"	f	class:TransferTab
+TransferTab	setup_window.h	/^class TransferTab : public QWidget$/;"	c
+Translator	translator.cpp	/^Translator::Translator()$/;"	f	class:Translator
+Translator	translator.h	/^class Translator$/;"	c
+TranslatorTab	about_dialog.cpp	/^TranslatorTab::TranslatorTab(QWidget *parent)$/;"	f	class:TranslatorTab
+TranslatorTab	about_dialog.h	/^class TranslatorTab : public QWidget$/;"	c
+USER_MANAGER_H	user_manager.h	18;"	d
+USER_SEARCH_HISTORY_COUNT	search_user_dialog.cpp	24;"	d	file:
+USER_VIEW_DISPLAY_LEVEL_COLUMN	constants.h	70;"	d
+USER_VIEW_GROUP_COLUMN	constants.h	66;"	d
+USER_VIEW_HOST_COLUMN	constants.h	67;"	d
+USER_VIEW_IP_COLUMN	constants.h	68;"	d
+USER_VIEW_LOGIN_NAME_COLUMN	constants.h	69;"	d
+USER_VIEW_NAME_COLUMN	constants.h	65;"	d
+UserManager	user_manager.cpp	/^UserManager::UserManager(QObject *parent)$/;"	f	class:UserManager
+UserManager	user_manager.h	/^class UserManager : public QObject$/;"	c
+VERSION	version.h	17;"	d
+WAV_DATA	sound.cpp	97;"	d	file:
+WAV_FMT	sound.cpp	96;"	d	file:
+WAV_PCM_CODE	sound.cpp	98;"	d	file:
+WAV_RIFF	sound.cpp	94;"	d	file:
+WAV_WAVE	sound.cpp	95;"	d	file:
+WINDOW_MANAGER_H	window_manager.h	18;"	d
+WaveChunkHeader	sound.cpp	/^} WaveChunkHeader;$/;"	t	typeref:struct:__anon3	file:
+WaveFmtBody	sound.cpp	/^} WaveFmtBody;$/;"	t	typeref:struct:__anon2	file:
+WaveHeader	sound.cpp	/^} WaveHeader;$/;"	t	typeref:struct:__anon1	file:
+WindowManager	window_manager.cpp	/^WindowManager::WindowManager(QObject *parent)$/;"	f	class:WindowManager
+WindowManager	window_manager.h	/^class WindowManager : public QObject$/;"	c
+_GNU_SOURCE	sound.cpp	20;"	d	file:
+abort	sound_thread.h	/^    bool abort;$/;"	m	class:SoundThread
+abortTransfer	recv_file_transfer.cpp	/^void RecvFileTransfer::abortTransfer()$/;"	f	class:RecvFileTransfer
+about	systray.cpp	/^void Systray::about()$/;"	f	class:Systray
+aboutAction	systray.h	/^    QAction *aboutAction;$/;"	m	class:Systray
+aboutQtAction	systray.h	/^    QAction *aboutQtAction;$/;"	m	class:Systray
+absolutePath	send_file_model.cpp	/^QString SendFileModel::absolutePath(int row) const$/;"	f	class:SendFileModel
+addBytesReaded	recv_file.h	/^    void addBytesReaded(qint64 size) { m_bytesReaded += size; }$/;"	f	class:RecvFile
+addBytesReaded	recv_file_map.h	/^    void addBytesReaded(qint64 size) { m_totalBytesReaded += size; }$/;"	f	class:RecvFileMap
+addDir	send_file_window.cpp	/^void SendFileWindow::addDir()$/;"	f	class:SendFileWindow
+addDirButton	send_file_window.h	/^    QPushButton *addDirButton;$/;"	m	class:SendFileWindow
+addFile	recv_file_map.h	/^    void addFile(int id, RecvFileHandle handle) { m_map.insert(id, handle); }$/;"	f	class:RecvFileMap
+addFile	send_file_map.cpp	/^void SendFileMap::addFile(const QStringList &pathList)$/;"	f	class:SendFileMap
+addFile	send_file_model.cpp	/^void SendFileModel::addFile(const QString &path)$/;"	f	class:SendFileModel
+addFile	send_file_model.cpp	/^void SendFileModel::addFile(const QStringList &pathList)$/;"	f	class:SendFileModel
+addFile	send_file_window.cpp	/^void SendFileWindow::addFile()$/;"	f	class:SendFileWindow
+addFileButton	send_file_window.h	/^    QPushButton *addFileButton;$/;"	m	class:SendFileWindow
+addOffset	recv_file.h	/^    void addOffset(qint64 offset) { m_offset += offset; }$/;"	f	class:RecvFile
+addRow	recv_file_model.cpp	/^void RecvFileModel::addRow(const RecvFile &recvFile)$/;"	f	class:RecvFileModel
+addRow	send_file_model.cpp	/^void SendFileModel::addRow(const QStringList &items)$/;"	f	class:SendFileModel
+addSendDir	main_window.cpp	/^void MainWindow::addSendDir()$/;"	f	class:MainWindow
+addSendFile	main_window.cpp	/^void MainWindow::addSendFile()$/;"	f	class:MainWindow
+addSendMsg	msg_thread.cpp	/^void MsgThread::addSendMsg(Msg msg)$/;"	f	class:MsgThread
+addTransfer	send_file_manager.cpp	/^void SendFileManager::addTransfer(QString key, SendFileMap *value)$/;"	f	class:SendFileManager
+addTransferLocked	send_file_manager.cpp	/^void SendFileManager::addTransferLocked(QString key, SendFileMap *value)$/;"	f	class:SendFileManager
+addUser	user_manager.cpp	/^void UserManager::addUser(const Owner &owner, int row)$/;"	f	class:UserManager
+additionalInfo	msg_base.h	/^    virtual QString additionalInfo() const { return m_additionalInfo; }$/;"	f	class:MsgBase
+allColumnCheckBox	search_user_dialog.h	/^    QCheckBox *allColumnCheckBox;$/;"	m	class:SearchUserDialog
+appHomePath	helper.cpp	/^QString Helper::appHomePath()$/;"	f	class:Helper
+appPath	helper.cpp	/^QString Helper::appPath()$/;"	f	class:Helper
+appTrans_	translator.h	/^    QTranslator appTrans_;$/;"	m	class:Translator
+apply	setup_window.cpp	/^void DetailSetupDialog::apply()$/;"	f	class:DetailSetupDialog
+applyButton	setup_window.h	/^    QPushButton *applyButton;$/;"	m	class:SetupWindow
+applyPreferences	setup_window.cpp	/^void SetupWindow::applyPreferences()$/;"	f	class:SetupWindow
+attrMap	recv_file.h	/^    const QMap<int, QString>& attrMap() { return m_attrMap; }$/;"	f	class:RecvFile
+au_header	sound.cpp	/^typedef struct au_header {$/;"	s	file:
+audiobuf	sound.h	/^    u_char *audiobuf;$/;"	m	class:Sound
+autoMinimizeCheckBox	setup_window.h	/^    QCheckBox *autoMinimizeCheckBox;$/;"	m	class:DetailTab
+avail_min	sound.h	/^    int avail_min;$/;"	m	class:Sound
+awayIconButton	setup_window.h	/^    QPushButton *awayIconButton;$/;"	m	class:OtherTab
+awayIconLabel	setup_window.h	/^    QLabel *awayIconLabel;$/;"	m	class:OtherTab
+bit_p_spl	sound.cpp	/^    u_short bit_p_spl;  \/* 8, 12 or 16 bit *\/$/;"	m	struct:__anon2	file:
+bits_per_frame	sound.h	/^    size_t bits_per_sample, bits_per_frame;$/;"	m	class:Sound
+bits_per_sample	sound.h	/^    size_t bits_per_sample, bits_per_frame;$/;"	m	class:Sound
+broadcastEntry	user_manager.cpp	/^void UserManager::broadcastEntry() const$/;"	f	class:UserManager
+broadcastExit	user_manager.cpp	/^void UserManager::broadcastExit() const$/;"	f	class:UserManager
+broadcastGroupBox	setup_window.h	/^    QGroupBox *broadcastGroupBox;$/;"	m	class:SetupWindow
+broadcastMsg	msg_server.cpp	/^void MsgServer::broadcastMsg(Msg &msg)$/;"	f	class:MsgServer
+broadcastUserMsg	msg_server.cpp	/^void MsgServer::broadcastUserMsg(Msg &msg)$/;"	f	class:MsgServer
+broadcast_list_widget_	setup_window.h	/^    QListWidget *broadcast_list_widget_;$/;"	m	class:SetupWindow
+buffer_frames	sound.h	/^    snd_pcm_uframes_t buffer_frames;$/;"	m	class:Sound
+buffer_time	sound.h	/^    unsigned buffer_time;$/;"	m	class:Sound
+buttonAliasCheckBox	setup_window.h	/^    QCheckBox *buttonAliasCheckBox;$/;"	m	class:DetailTab
+buttonBox	about_dialog.h	/^    QDialogButtonBox *buttonBox;$/;"	m	class:AboutDialog
+buttonBox	msg_window.h	/^    QHBoxLayout *buttonBox;$/;"	m	class:MsgWindow
+buttonBox	setup_window.h	/^    QDialogButtonBox *buttonBox;$/;"	m	class:DetailSetupDialog
+buttonLayout	send_file_window.h	/^    QHBoxLayout *buttonLayout;$/;"	m	class:SendFileWindow
+buttonLayout	transfer_file_window.h	/^    QHBoxLayout *buttonLayout;$/;"	m	class:TransferFileWindow
+buttonsLayout	dir_dialog.h	/^    QHBoxLayout *buttonsLayout;$/;"	m	class:DirDialog
+buttonsLayout	recv_file_finish_dialog.h	/^    QHBoxLayout *buttonsLayout;$/;"	m	class:RecvFileFinishDialog
+buttonsLayout	recv_file_window.h	/^    QHBoxLayout *buttonsLayout;$/;"	m	class:RecvFileWindow
+buttonsLayout	retry_recv_file_dialog.h	/^    QHBoxLayout *buttonsLayout;$/;"	m	class:RetryRecvFileDialog
+buttonsLayout	setup_window.h	/^    QHBoxLayout *buttonsLayout;$/;"	m	class:SetupWindow
+byte_p_sec	sound.cpp	/^    u_int byte_p_sec;$/;"	m	struct:__anon2	file:
+byte_p_spl	sound.cpp	/^    u_short byte_p_spl; \/* samplesize; 1 or 2 bytes *\/$/;"	m	struct:__anon2	file:
+bytesReaded	recv_file.h	/^    qint64 bytesReaded() const { return m_bytesReaded; }$/;"	f	class:RecvFile
+calc_count	sound.cpp	/^off64_t Sound::calc_count(void)$/;"	f	class:Sound
+canParseHeader	recv_file_transfer.cpp	/^bool RecvFileTransfer::canParseHeader(QByteArray &recvBlock)$/;"	f	class:RecvFileTransfer
+canParsePacket	serve_socket.cpp	/^bool ServeSocket::canParsePacket(const QByteArray &requestPacket) const$/;"	f	class:ServeSocket
+canSendFile	send_file_map.cpp	/^bool SendFileMap::canSendFile(int fileId) const$/;"	f	class:SendFileMap
+cancelButton	dir_dialog.h	/^    QPushButton *cancelButton;$/;"	m	class:DirDialog
+cancelButton	retry_recv_file_dialog.h	/^    QPushButton *cancelButton;$/;"	m	class:RetryRecvFileDialog
+cancelTransfer	msg_window.cpp	/^void MsgWindow::cancelTransfer()$/;"	f	class:MsgWindow
+channels	sound.cpp	/^    u_int channels;     \/* number of channels (voices) *\/$/;"	m	struct:au_header	file:
+channels	sound.h	/^        unsigned int channels;$/;"	m	struct:Sound::__anon4
+checkTcpServerError	main.cpp	/^static void checkTcpServerError()$/;"	f	file:
+check_wavefile_space	sound.cpp	100;"	d	file:
+chunk_bytes	sound.h	/^    size_t chunk_bytes;$/;"	m	class:Sound
+chunk_size	sound.h	/^    snd_pcm_uframes_t chunk_size;$/;"	m	class:Sound
+clearSelectButton	recv_file_window.h	/^    QPushButton *clearSelectButton;$/;"	m	class:RecvFileWindow
+clone	msg_base.h	/^    virtual MsgBase* clone() const { return new MsgBase(*this); }$/;"	f	class:MsgBase
+clone	recv_file.h	/^    virtual RecvFile* clone() const { return new RecvFile(*this); }$/;"	f	class:RecvFile
+clone	recv_msg.h	/^    virtual RecvMsg* clone() const { return new RecvMsg(*this); }$/;"	f	class:RecvMsg
+clone	send_file.h	/^    virtual SendFile* clone() const { return new SendFile(*this); }$/;"	f	class:SendFile
+clone	send_msg.h	/^    virtual SendMsg* clone() const { return new SendMsg(*this); }$/;"	f	class:SendMsg
+closeButton	msg_window.h	/^    QPushButton *closeButton;$/;"	m	class:MsgWindow
+closeButton	recv_file_finish_dialog.h	/^    QPushButton *closeButton;$/;"	m	class:RecvFileFinishDialog
+closeButton	recv_file_window.h	/^    QPushButton *closeButton;$/;"	m	class:RecvFileWindow
+closeButton	search_user_dialog.h	/^    QPushButton *closeButton;$/;"	m	class:SearchUserDialog
+closeButton	send_file_window.h	/^    QPushButton *closeButton;$/;"	m	class:SendFileWindow
+closeButton	transfer_file_window.h	/^    QPushButton *closeButton;$/;"	m	class:TransferFileWindow
+closeEvent	main_window.cpp	/^void MainWindow::closeEvent(QCloseEvent *event)$/;"	f	class:MainWindow
+closeEvent	msg_readed_window.cpp	/^void MsgReadedWindow::closeEvent(QCloseEvent *event)$/;"	f	class:MsgReadedWindow
+closeEvent	msg_window.cpp	/^void MsgWindow::closeEvent(QCloseEvent *event)$/;"	f	class:MsgWindow
+closeEvent	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::closeEvent(QCloseEvent *event)$/;"	f	class:RecvFileFinishDialog
+closeEvent	retry_recv_file_dialog.cpp	/^void RetryRecvFileDialog::closeEvent(QCloseEvent *event)$/;"	f	class:RetryRecvFileDialog
+closeEvent	send_file_window.cpp	/^void SendFileWindow::closeEvent(QCloseEvent *event)$/;"	f	class:SendFileWindow
+closeMsgWindow	msg_window.cpp	/^void MsgWindow::closeMsgWindow()$/;"	f	class:MsgWindow
+codec	transfer_codec.cpp	/^QTextCodec * TransferCodec::codec() const$/;"	f	class:TransferCodec
+codecComboBox	setup_window.h	/^    QComboBox *codecComboBox;$/;"	m	class:TransferTab
+codecLabel	setup_window.h	/^    QLabel *codecLabel;$/;"	m	class:TransferTab
+codecMap	transfer_codec.h	/^    QMultiMap<QByteArray, QTextCodec *> codecMap;$/;"	m	class:TransferCodec
+condition	sound_thread.h	/^    QWaitCondition condition;$/;"	m	class:SoundThread
+constructDirSendBlock	serve_socket.cpp	/^QByteArray ServeSocket::constructDirSendBlock(QString filePath,$/;"	f	class:ServeSocket
+constructFileSendBlock	serve_socket.cpp	/^QByteArray ServeSocket::constructFileSendBlock(QString filePath) const$/;"	f	class:ServeSocket
+constructPacket	msg_base.cpp	/^void MsgBase::constructPacket()$/;"	f	class:MsgBase
+constructRecvFileDatagram	recv_file_transfer.cpp	/^QByteArray RecvFileTransfer::constructRecvFileDatagram(RecvFileHandle h)$/;"	f	class:RecvFileTransfer
+contains	send_file_model.cpp	/^bool SendFileModel::contains(const QString &path) const$/;"	f	class:SendFileModel
+contains	user_manager.cpp	/^bool UserManager::contains(QString ip) const$/;"	f	class:UserManager
+contextMenuEvent	main_window.cpp	/^void MainWindow::contextMenuEvent(QContextMenuEvent *event)$/;"	f	class:MainWindow
+contr	about_dialog.cpp	/^static QString contr(const QString &author, const QString &thing)$/;"	f	file:
+createActions	main_window.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow
+createActions	systray.cpp	/^void Systray::createActions()$/;"	f	class:Systray
+createBroadcastGroupBox	setup_window.cpp	/^void SetupWindow::createBroadcastGroupBox()$/;"	f	class:SetupWindow
+createButtonBox	search_user_dialog.cpp	/^void SearchUserDialog::createButtonBox()$/;"	f	class:SearchUserDialog
+createButtonLayout	dir_dialog.cpp	/^void DirDialog::createButtonLayout()$/;"	f	class:DirDialog
+createButtonLayout	msg_window.cpp	/^void MsgWindow::createButtonLayout()$/;"	f	class:MsgWindow
+createButtonLayout	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::createButtonLayout()$/;"	f	class:RecvFileFinishDialog
+createButtonLayout	recv_file_window.cpp	/^void RecvFileWindow::createButtonLayout()$/;"	f	class:RecvFileWindow
+createButtonLayout	retry_recv_file_dialog.cpp	/^void RetryRecvFileDialog::createButtonLayout()$/;"	f	class:RetryRecvFileDialog
+createButtonLayout	send_file_window.cpp	/^void SendFileWindow::createButtonLayout()$/;"	f	class:SendFileWindow
+createButtonLayout	setup_window.cpp	/^void SetupWindow::createButtonLayout()$/;"	f	class:SetupWindow
+createButtonLayout	transfer_file_window.cpp	/^void TransferFileWindow::createButtonLayout()$/;"	f	class:TransferFileWindow
+createCodecComboBox	setup_window.cpp	/^void TransferTab::createCodecComboBox()$/;"	f	class:TransferTab
+createConnections	dir_dialog.cpp	/^void DirDialog::createConnections()$/;"	f	class:DirDialog
+createConnections	main_window.cpp	/^void MainWindow::createConnections()$/;"	f	class:MainWindow
+createConnections	msg_readed_window.cpp	/^void MsgReadedWindow::createConnections()$/;"	f	class:MsgReadedWindow
+createConnections	qipmsg.cpp	/^void QIpMsg::createConnections()$/;"	f	class:QIpMsg
+createConnections	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::createConnections()$/;"	f	class:RecvFileFinishDialog
+createConnections	recv_file_window.cpp	/^void RecvFileWindow::createConnections()$/;"	f	class:RecvFileWindow
+createConnections	retry_recv_file_dialog.cpp	/^void RetryRecvFileDialog::createConnections()$/;"	f	class:RetryRecvFileDialog
+createConnections	search_user_dialog.cpp	/^void SearchUserDialog::createConnections()$/;"	f	class:SearchUserDialog
+createConnections	send_file_window.cpp	/^void SendFileWindow::createConnections()$/;"	f	class:SendFileWindow
+createConnections	setup_window.cpp	/^void SetupWindow::createConnections()$/;"	f	class:SetupWindow
+createConnections	systray.cpp	/^void Systray::createConnections()$/;"	f	class:Systray
+createConnections	transfer_file_window.cpp	/^void TransferFileWindow::createConnections()$/;"	f	class:TransferFileWindow
+createGroupBox	msg_window.cpp	/^void MsgWindow::createGroupBox()$/;"	f	class:MsgWindow
+createGroupBox	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::createGroupBox()$/;"	f	class:RecvFileFinishDialog
+createGroupBox	retry_recv_file_dialog.cpp	/^void RetryRecvFileDialog::createGroupBox()$/;"	f	class:RetryRecvFileDialog
+createGroupNameGroupBox	setup_window.cpp	/^void SetupWindow::createGroupNameGroupBox()$/;"	f	class:SetupWindow
+createHomeDirectory	main.cpp	/^static void createHomeDirectory()$/;"	f	file:
+createIconSet	global.cpp	/^static void createIconSet()$/;"	f	file:
+createInputWidget	main_window.cpp	/^void MainWindow::createInputWidget()$/;"	f	class:MainWindow
+createLeaveMenu	systray.cpp	/^void Systray::createLeaveMenu()$/;"	f	class:Systray
+createMainWindow	systray.cpp	/^void Systray::createMainWindow()$/;"	f	class:Systray
+createMenus	systray.cpp	/^void Systray::createMenus()$/;"	f	class:Systray
+createMiscSettingGroupBox	setup_window.cpp	/^void SetupWindow::createMiscSettingGroupBox()$/;"	f	class:SetupWindow
+createModel	recv_file_model.cpp	/^void RecvFileModel::createModel()$/;"	f	class:RecvFileModel
+createModel	send_file_model.cpp	/^void SendFileModel::createModel()$/;"	f	class:SendFileModel
+createModel	transfer_file_model.cpp	/^void TransferFileModel::createModel()$/;"	f	class:TransferFileModel
+createModel	user_manager.cpp	/^void UserManager::createModel()$/;"	f	class:UserManager
+createMsgReadedWindow	window_manager.cpp	/^void WindowManager::createMsgReadedWindow(Msg msg)$/;"	f	class:WindowManager
+createMsgWindow	window_manager.cpp	/^void WindowManager::createMsgWindow(Msg msg)$/;"	f	class:WindowManager
+createNicknameGroupBox	setup_window.cpp	/^void SetupWindow::createNicknameGroupBox()$/;"	f	class:SetupWindow
+createPeerWidget	main_window.cpp	/^void MainWindow::createPeerWidget()$/;"	f	class:MainWindow
+createRecvFileView	recv_file_window.cpp	/^void RecvFileWindow::createRecvFileView()$/;"	f	class:RecvFileWindow
+createSearchBox	search_user_dialog.cpp	/^void SearchUserDialog::createSearchBox()$/;"	f	class:SearchUserDialog
+createSendFileView	send_file_window.cpp	/^void SendFileWindow::createSendFileView(SendFileModel *sendFileModel)$/;"	f	class:SendFileWindow
+createSendLayout	main_window.cpp	/^void MainWindow::createSendLayout()$/;"	f	class:MainWindow
+createSendRecvSettingsGroupBox	setup_window.cpp	/^void SetupWindow::createSendRecvSettingsGroupBox()$/;"	f	class:SetupWindow
+createSplitterWidget	main_window.cpp	/^void MainWindow::createSplitterWidget()$/;"	f	class:MainWindow
+createTextEdit	msg_window.cpp	/^void MsgWindow::createTextEdit()$/;"	f	class:MsgWindow
+createTransferFileView	transfer_file_window.cpp	/^void TransferFileWindow::createTransferFileView()$/;"	f	class:TransferFileWindow
+createUi	msg_readed_window.cpp	/^void MsgReadedWindow::createUi()$/;"	f	class:MsgReadedWindow
+currentFile	recv_file_map.h	/^    RecvFileHandle currentFile() const { return m_map[m_currentId]; }$/;"	f	class:RecvFileMap
+currentId	recv_file_map.h	/^    int currentId() const { return m_currentId; }$/;"	f	class:RecvFileMap
+data	recv_file_model.h	/^    QVariant data(const QModelIndex &i) { return m_model->data(i); }$/;"	f	class:RecvFileModel
+data_size	sound.cpp	/^    u_int data_size;    \/* size of data *\/$/;"	m	struct:au_header	file:
+decr_use	msg.h	/^    void decr_use() {$/;"	f	class:Msg
+decr_use	recv_file_handle.h	/^    void decr_use() {$/;"	f	class:RecvFileHandle
+decr_use	send_file_handle.h	/^    void decr_use() {$/;"	f	class:SendFileHandle
+delAckWindowAction	systray.h	/^    QAction *delAckWindowAction;$/;"	m	class:Systray
+delButton	send_file_window.h	/^    QPushButton *delButton;$/;"	m	class:SendFileWindow
+delButton	transfer_file_window.h	/^    QPushButton *delButton;$/;"	m	class:TransferFileWindow
+delFile	send_file_window.cpp	/^void SendFileWindow::delFile()$/;"	f	class:SendFileWindow
+deleteTransfer	transfer_file_window.cpp	/^void TransferFileWindow::deleteTransfer()$/;"	f	class:TransferFileWindow
+destroyMainWindowList	systray.cpp	/^void Systray::destroyMainWindowList()$/;"	f	class:Systray
+destroyMsgReadedWindowList	window_manager.cpp	/^void WindowManager::destroyMsgReadedWindowList()$/;"	f	class:WindowManager
+destroyMsgWindowList	window_manager.cpp	/^void WindowManager::destroyMsgWindowList()$/;"	f	class:WindowManager
+detailSetup	setup_window.cpp	/^void SetupWindow::detailSetup()$/;"	f	class:SetupWindow
+detailSetupButton	setup_window.h	/^    QPushButton *detailSetupButton;$/;"	m	class:SetupWindow
+detailTab	setup_window.h	/^    DetailTab *detailTab;$/;"	m	class:DetailSetupDialog
+device	sound.h	/^    const char *device;$/;"	m	class:Sound
+dirCount	recv_file_map.h	/^    int dirCount() const { return m_dirCount; }$/;"	f	class:RecvFileMap
+displayLevel	owner.h	/^    QString displayLevel() const { return m_displayLevel; }$/;"	f	class:Owner
+displayLevel	preferences.h	/^    QString displayLevel;$/;"	m	class:Preferences
+dragEnterEvent	main_window.cpp	/^void MainWindow::dragEnterEvent(QDragEnterEvent *e)$/;"	f	class:MainWindow
+dropEvent	main_window.cpp	/^void MainWindow::dropEvent(QDropEvent *e)$/;"	f	class:MainWindow
+elapse	recv_file.h	/^    int elapse() const$/;"	f	class:RecvFile
+elapse	recv_file_map.h	/^    quint32 elapse() const {$/;"	f	class:RecvFileMap
+enableHotKeyCheckBox	setup_window.h	/^    QCheckBox *enableHotKeyCheckBox;$/;"	m	class:DetailTab
+encapCheckBox	main_window.h	/^    QCheckBox *encapCheckBox;$/;"	m	class:MainWindow
+encoding	sound.cpp	/^    u_int encoding;     \/* see to AU_FMT_XXXX *\/$/;"	m	struct:au_header	file:
+entryMessage	user_manager.cpp	/^QString UserManager::entryMessage() const$/;"	f	class:UserManager
+exitMessage	user_manager.cpp	/^QString UserManager::exitMessage() const$/;"	f	class:UserManager
+expandTree	dir_dialog.cpp	/^void DirDialog::expandTree()$/;"	f	class:DirDialog
+extendAttr	recv_file_transfer.cpp	/^    QMap<int, QString> extendAttr;$/;"	m	struct:TransferFile	file:
+extendedInfo	msg_base.h	/^    virtual QString extendedInfo() const { return m_extendedInfo; }$/;"	f	class:MsgBase
+fd	sound.h	/^    int fd;$/;"	m	class:Sound
+fdcount	sound.h	/^    off64_t fdcount;$/;"	m	class:Sound
+fileCountString	global.cpp	/^QString Global::fileCountString(int i)$/;"	f	class:Global
+fileCountString	helper.cpp	/^QString Helper::fileCountString(int fileCount)$/;"	f	class:Helper
+fileId	recv_file.h	/^    int fileId() const { return m_fileId; }$/;"	f	class:RecvFile
+fileId	serve_socket.cpp	/^    int fileId;$/;"	m	struct:RequsetFile	file:
+fileIdString	recv_file.h	/^    QString fileIdString() const { return QString("%1").arg(m_fileId); }$/;"	f	class:RecvFile
+fileInfoButton	msg_window.h	/^    QPushButton *fileInfoButton;$/;"	m	class:MsgWindow
+fileListButton	main_window.h	/^    QPushButton *fileListButton;$/;"	m	class:MainWindow
+fileName	lockfile.h	/^    QString fileName;$/;"	m	class:LockFile
+fileName	send_file_model.cpp	/^QString SendFileModel::fileName(int row) const$/;"	f	class:SendFileModel
+fileNameJoin	recv_file_map.cpp	/^QString RecvFileMap::fileNameJoin(QString sep) const$/;"	f	class:RecvFileMap
+fileNameJoin	send_file_model.cpp	/^QString SendFileModel::fileNameJoin(const QString &separator) const$/;"	f	class:SendFileModel
+fileNames	send_file_map.cpp	/^QString SendFileMap::fileNames() const$/;"	f	class:SendFileMap
+filePath	serve_socket.cpp	/^    QString filePath;$/;"	m	struct:RequsetFile	file:
+fileServer	global.cpp	/^FileServer *Global::fileServer = 0;$/;"	m	class:Global	file:
+fileType	serve_socket.cpp	/^    int fileType;$/;"	m	struct:RequsetFile	file:
+filterAcceptsRow	recvfilesortfilterproxymodel.cpp	/^bool RecvFileSortFilterProxyModel::filterAcceptsRow(int sourceRow,$/;"	f	class:RecvFileSortFilterProxyModel
+flags	msg_base.h	/^    virtual quint32 flags() const { return m_flags; }$/;"	f	class:MsgBase
+fmt	sound.cpp	/^struct fmt {$/;"	s	file:
+fmt_table	sound.cpp	/^} fmt_table[] = {$/;"	v	typeref:struct:fmt
+format	sound.cpp	/^    u_short format;     \/* should be 1 for PCM-code *\/$/;"	m	struct:__anon2	file:
+format	sound.h	/^        snd_pcm_format_t format;$/;"	m	struct:Sound::__anon4
+getContributor	about_dialog.cpp	/^QString ContributorTab::getContributor() const$/;"	f	class:ContributorTab
+getEnvironmentVariable	helper.cpp	/^QString Helper::getEnvironmentVariable(QRegExp regExp)$/;"	f	class:Helper
+getLogFilePath	setup_window.cpp	/^void LogTab::getLogFilePath()$/;"	f	class:LogTab
+getNoticeSoundPath	setup_window.cpp	/^void OtherTab::getNoticeSoundPath()$/;"	f	class:OtherTab
+getSenderInfo	msg_window.cpp	/^QString MsgWindow::getSenderInfo()$/;"	f	class:MsgWindow
+getTranslator	about_dialog.cpp	/^QString TranslatorTab::getTranslator() const$/;"	f	class:TranslatorTab
+globalEnd	global.cpp	/^void Global::globalEnd()$/;"	f	class:Global
+globalInit	global.cpp	/^void Global::globalInit(QString path)$/;"	f	class:Global
+group	owner.h	/^    QString group() const { return m_group; }$/;"	f	class:Owner
+group	user_manager.cpp	/^QString UserManager::group(int row) const$/;"	f	class:UserManager
+groupBox	msg_window.h	/^    QGroupBox *groupBox;$/;"	m	class:MsgWindow
+groupName	preferences.h	/^    QString groupName;$/;"	m	class:Preferences
+groupNameComboBox	setup_window.h	/^    QComboBox *groupNameComboBox;$/;"	m	class:SetupWindow
+groupNameGroupBox	setup_window.h	/^    QGroupBox *groupNameGroupBox;$/;"	m	class:SetupWindow
+groupNameHistory	preferences.h	/^    QString groupNameHistory;$/;"	m	class:Preferences
+groupNameList	preferences.h	/^    QStringList groupNameList;$/;"	m	class:Preferences
+handle	sound.h	/^    snd_pcm_t *handle;$/;"	m	class:Sound
+handleError	msg_thread.cpp	/^void MsgThread::handleError(QAbstractSocket::SocketError errorCode, QString s)$/;"	f	class:MsgThread
+handleMsg	msg_server.cpp	/^void MsgServer::handleMsg(Msg &msg)$/;"	f	class:MsgServer
+handleRequest	serve_socket.cpp	/^bool ServeSocket::handleRequest(const QByteArray &requestPacket)$/;"	f	class:ServeSocket
+hasRecvFile	msg_window.cpp	/^bool MsgWindow::hasRecvFile () const$/;"	f	class:MsgWindow
+hasSendFile	main_window.cpp	/^bool MainWindow::hasSendFile()$/;"	f	class:MainWindow
+hdr_size	sound.cpp	/^    u_int hdr_size;     \/* size of header (min 24) *\/$/;"	m	struct:au_header	file:
+hidedMsgWindowCount	window_manager.cpp	/^int WindowManager::hidedMsgWindowCount() const$/;"	f	class:WindowManager
+host	owner.h	/^    QString host() const { return m_host; }$/;"	f	class:Owner
+host	user_manager.cpp	/^QString UserManager::host(int row) const$/;"	f	class:UserManager
+hostname	helper.cpp	/^QString Helper::hostname()$/;"	f	class:Helper
+hwparams	sound.h	/^    } hwparams, rhwparams;$/;"	m	class:Sound	typeref:struct:Sound::__anon4
+iconPath	helper.cpp	/^QString Helper::iconPath()$/;"	f	class:Helper
+iconSet	global.cpp	/^QMap<QString, QIcon *> Global::iconSet;$/;"	m	class:Global	file:
+incomingConnection	file_server.cpp	/^void FileServer::incomingConnection(int socketDescriptor)$/;"	f	class:FileServer
+incrDirCount	recv_file_map.h	/^    void incrDirCount() { ++m_dirCount; }$/;"	f	class:RecvFileMap
+incrRegularFileCount	recv_file.h	/^    void incrRegularFileCount() { ++m_regularFileCount; }$/;"	f	class:RecvFile
+incrRegularFileCount	recv_file_map.h	/^    void incrRegularFileCount() { ++m_regularFileCount; }$/;"	f	class:RecvFileMap
+incrTotalRegularFileCount	recv_file_map.h	/^    void incrTotalRegularFileCount() { ++m_totalRegularFileCount; }$/;"	f	class:RecvFileMap
+incrTransferCount	send_file_map.h	/^    void incrTransferCount() { ++m_transferedCount; }$/;"	f	class:SendFileMap
+incrementSendTimes	msg_base.h	/^    virtual void incrementSendTimes() {}$/;"	f	class:MsgBase
+incrementSendTimes	send_msg.h	/^    void incrementSendTimes() { ++m_sendTimes; }$/;"	f	class:SendMsg
+iniPath	helper.cpp	/^QString Helper::iniPath()$/;"	f	class:Helper
+initLocaleCodecMap	transfer_codec.cpp	/^void TransferCodec::initLocaleCodecMap()$/;"	f	class:TransferCodec
+initOwner	owner.cpp	/^void Owner::initOwner(QString &packet)$/;"	f	class:Owner
+initRecvFileInfo	msg_window.cpp	/^void MsgWindow::initRecvFileInfo()$/;"	f	class:MsgWindow
+initTransCodec	transfer_codec.cpp	/^void TransferCodec::initTransCodec()$/;"	f	class:TransferCodec
+init_raw_data	sound.cpp	/^void Sound::init_raw_data(void)$/;"	f	class:Sound
+inputEdit	main_window.h	/^    QTextEdit *inputEdit;$/;"	m	class:MainWindow
+inputWidget	main_window.h	/^    QWidget *inputWidget;$/;"	m	class:MainWindow
+insertTransfer	transfer_file_model.cpp	/^void TransferFileModel::insertTransfer(SendFileMap *sendFileMap)$/;"	f	class:TransferFileModel
+instance	lockfile.cpp	/^LockFile *LockFile::instance()$/;"	f	class:LockFile
+instance	translator.cpp	/^Translator* Translator::instance()$/;"	f	class:Translator
+ip	msg_base.h	/^    virtual QString ip() const { return m_ipAddress.toString(); }$/;"	f	class:MsgBase
+ip	owner.h	/^    QString ip() const { return m_ipAddress.toString(); }$/;"	f	class:Owner
+ip	recv_file.h	/^    QString ip() const { return m_ip; }$/;"	f	class:RecvFile
+ip	user_manager.cpp	/^QString UserManager::ip(int row) const$/;"	f	class:UserManager
+ipAddress	msg_base.h	/^    virtual QHostAddress ipAddress() const { return m_ipAddress; }$/;"	f	class:MsgBase
+ipAddress	recv_file.h	/^    QHostAddress ipAddress() const { return QHostAddress(m_ip); }$/;"	f	class:RecvFile
+ipToRow	user_manager.cpp	/^int UserManager::ipToRow(QString ip) const$/;"	f	class:UserManager
+isAbortTransfer	recv_file_transfer.h	/^    bool isAbortTransfer;$/;"	m	class:RecvFileTransfer
+isAttachFile	msg_window.cpp	/^bool MsgWindow::isAttachFile()$/;"	f	class:MsgWindow
+isCancelTransferCalled	msg_window.h	/^    bool isCancelTransferCalled;$/;"	m	class:MsgWindow
+isFileExist	recv_file_window.cpp	/^bool RecvFileWindow::isFileExist(QString directory, QModelIndexList &indexList,$/;"	f	class:RecvFileWindow
+isFileSended	serve_socket.cpp	/^    bool isFileSended;$/;"	m	struct:RequsetFile	file:
+isFinished	send_file_map.cpp	/^bool SendFileMap::isFinished() const$/;"	f	class:SendFileMap
+isLogIP	preferences.h	/^    bool isLogIP;$/;"	m	class:Preferences
+isLogIPCheckBox	setup_window.h	/^    QCheckBox *isLogIPCheckBox;$/;"	m	class:LogTab
+isLogLoginName	preferences.h	/^    bool isLogLoginName;$/;"	m	class:Preferences
+isLogLoginNameCheckBox	setup_window.h	/^    QCheckBox *isLogLoginNameCheckBox;$/;"	m	class:LogTab
+isLogMsg	preferences.h	/^    bool isLogMsg;$/;"	m	class:Preferences
+isLogMsgCheckBox	setup_window.h	/^    QCheckBox *isLogMsgCheckBox;$/;"	m	class:LogTab
+isNoAutoPopupMsg	preferences.h	/^    bool isNoAutoPopupMsg;$/;"	m	class:Preferences
+isNoSoundAlarm	preferences.h	/^    bool isNoSoundAlarm;$/;"	m	class:Preferences
+isQuoteMsg	preferences.h	/^    bool isQuoteMsg;$/;"	m	class:Preferences
+isReadCheck	preferences.h	/^    bool isReadCheck;$/;"	m	class:Preferences
+isRecvFileExist	recv_file_window.cpp	/^bool RecvFileWindow::isRecvFileExist(QString fileName,$/;"	f	class:RecvFileWindow
+isResendNeeded	msg_server.cpp	/^bool MsgServer::isResendNeeded(Msg &msg) const$/;"	f	class:MsgServer
+isSealed	msg_window.cpp	/^bool MsgWindow::isSealed()$/;"	f	class:MsgWindow
+isSealed	preferences.h	/^    bool isSealed;$/;"	m	class:Preferences
+isSearchAllColumns	preferences.h	/^    bool isSearchAllColumns;$/;"	m	class:Preferences
+isSingleClickSendWindow	preferences.h	/^    bool isSingleClickSendWindow;$/;"	m	class:Preferences
+isStopTransfer	recv_file_transfer.h	/^    bool isStopTransfer;$/;"	m	class:RecvFileTransfer
+isSupportedCommand	msg_server.cpp	/^bool MsgServer::isSupportedCommand(QByteArray &datagram) const$/;"	f	class:MsgServer
+isTransfer	send_file_map.cpp	/^bool SendFileMap::isTransfer() const$/;"	f	class:SendFileMap
+keyPressEvent	main_window.cpp	/^void MainWindow::keyPressEvent(QKeyEvent *event)$/;"	f	class:MainWindow
+keyToRow	transfer_file_model.cpp	/^int TransferFileModel::keyToRow(QString key) const$/;"	f	class:TransferFileModel
+lastSaveFilePath	preferences.h	/^    QString lastSaveFilePath;$/;"	m	class:Preferences
+lastSendDirPath	preferences.h	/^    QString lastSendDirPath;$/;"	m	class:Preferences
+lastSendFilePath	preferences.h	/^    QString lastSendFilePath;$/;"	m	class:Preferences
+leaveActionGroup	systray.h	/^    QActionGroup *leaveActionGroup;$/;"	m	class:Systray
+leaveMenu	systray.h	/^    QMenu *leaveMenu;$/;"	m	class:Systray
+length	sound.cpp	/^    u_int length;       \/* filelen *\/$/;"	m	struct:__anon1	file:
+length	sound.cpp	/^    u_int length;       \/* samplecount *\/$/;"	m	struct:__anon3	file:
+line_edit_	setup_window.h	/^    QLineEdit* line_edit_;$/;"	m	class:SetupWindow
+link	about_dialog.cpp	/^static QString link(const QString & url, QString name)$/;"	f	file:
+load	preferences.cpp	/^void Preferences::load()$/;"	f	class:Preferences
+load	translator.cpp	/^void Translator::load(QString locale)$/;"	f	class:Translator
+loadCatalog	translator.cpp	/^bool Translator::loadCatalog(QTranslator &t, QString name, QString locale,$/;"	f	class:Translator
+localeCodecMap	transfer_codec.h	/^    QMultiMap<QString, QByteArray> localeCodecMap;$/;"	m	class:TransferCodec
+lock	lockfile.cpp	/^bool LockFile::lock()$/;"	f	class:LockFile
+lockCheckBox	main_window.h	/^    QCheckBox *lockCheckBox;$/;"	m	class:MainWindow
+lockFile	helper.cpp	/^QString Helper::lockFile()$/;"	f	class:Helper
+lockfile	lockfile.cpp	/^int LockFile::lockfile(int fd)$/;"	f	class:LockFile
+log	sound.h	/^    snd_output_t *log;$/;"	m	class:Sound
+logFile	preferences.h	/^    QFile logFile;$/;"	m	class:Preferences
+logFileButton	setup_window.h	/^    QPushButton *logFileButton;$/;"	m	class:LogTab
+logFileLabel	setup_window.h	/^    QLabel *logFileLabel;$/;"	m	class:LogTab
+logFilePath	preferences.h	/^    QString logFilePath;$/;"	m	class:Preferences
+logRecvMsg	msg_window.cpp	/^void MsgWindow::logRecvMsg()$/;"	f	class:MsgWindow
+logSendMsg	main_window.cpp	/^void MainWindow::logSendMsg(QString text, int row)$/;"	f	class:MainWindow
+logTab	setup_window.h	/^    LogTab *logTab;$/;"	m	class:DetailSetupDialog
+loginName	helper.cpp	/^QString Helper::loginName()$/;"	f	class:Helper
+loginName	owner.h	/^    QString loginName() const { return m_loginName; }$/;"	f	class:Owner
+loginName	user_manager.cpp	/^QString UserManager::loginName(int row) const$/;"	f	class:UserManager
+m_additionalInfo	msg_base.h	/^    QString m_additionalInfo;$/;"	m	class:MsgBase
+m_appPath	helper.cpp	/^QString Helper::m_appPath;$/;"	m	class:Helper	file:
+m_appPath	helper.h	/^    static QString m_appPath;$/;"	m	class:Helper
+m_attrMap	recv_file.h	/^    QMap<int, QString> m_attrMap;$/;"	m	class:RecvFile
+m_begin	recv_file.h	/^    QDateTime m_begin;$/;"	m	class:RecvFile
+m_begin	recv_file_map.h	/^    QDateTime m_begin;$/;"	m	class:RecvFileMap
+m_broadcastAddresses	msg_server.h	/^    QList<QHostAddress> m_broadcastAddresses;$/;"	m	class:MsgServer
+m_bytesReaded	recv_file.h	/^    qint64 m_bytesReaded;$/;"	m	class:RecvFile
+m_cancelTransferMessageBox	msg_window.h	/^    QMessageBox *m_cancelTransferMessageBox;$/;"	m	class:MsgWindow
+m_codec	transfer_codec.h	/^    QTextCodec *m_codec;   \/\/ codec for transfer message$/;"	m	class:TransferCodec
+m_cond	recv_file_transfer.h	/^    QWaitCondition m_cond;$/;"	m	class:RecvFileTransfer
+m_currentId	recv_file_map.h	/^    int m_currentId;$/;"	m	class:RecvFileMap
+m_dirCount	recv_file_map.h	/^    int m_dirCount;$/;"	m	class:RecvFileMap
+m_displayLevel	owner.h	/^    QString m_displayLevel;$/;"	m	class:Owner
+m_end	recv_file.h	/^    QDateTime m_end;$/;"	m	class:RecvFile
+m_end	recv_file_map.h	/^    QDateTime m_end;$/;"	m	class:RecvFileMap
+m_errorString	recv_file_transfer.h	/^    QString m_errorString;$/;"	m	class:RecvFileTransfer
+m_errorString	serve_socket.h	/^    QString m_errorString;$/;"	m	class:ServeSocket
+m_extendedInfo	msg_base.h	/^    QString m_extendedInfo;$/;"	m	class:MsgBase
+m_fileId	recv_file.h	/^    int m_fileId;$/;"	m	class:RecvFile
+m_fileId	send_file.h	/^    int m_fileId;$/;"	m	class:SendFile
+m_flags	msg_base.h	/^    quint32 m_flags;$/;"	m	class:MsgBase
+m_group	owner.h	/^    QString m_group;$/;"	m	class:Owner
+m_host	owner.h	/^    QString m_host;$/;"	m	class:Owner
+m_iconKey	systray.h	/^    QString m_iconKey;$/;"	m	class:Systray
+m_iniPath	helper.cpp	/^QString Helper::m_iniPath;$/;"	m	class:Helper	file:
+m_iniPath	helper.h	/^    static QString m_iniPath;$/;"	m	class:Helper
+m_initText	main_window.h	/^    QString m_initText;$/;"	m	class:MainWindow
+m_internalLogFile	helper.cpp	/^QFile Helper::m_internalLogFile;$/;"	m	class:Helper	file:
+m_internalLogFile	helper.h	/^    static QFile m_internalLogFile;$/;"	m	class:Helper
+m_internalLogFileName	helper.cpp	/^QString Helper::m_internalLogFileName;$/;"	m	class:Helper	file:
+m_internalLogFileName	helper.h	/^    static QString m_internalLogFileName;$/;"	m	class:Helper
+m_ip	recv_file.h	/^    QString m_ip;$/;"	m	class:RecvFile
+m_ipAddress	msg_base.h	/^    QHostAddress m_ipAddress;$/;"	m	class:MsgBase
+m_ipAddress	owner.h	/^    QHostAddress m_ipAddress;$/;"	m	class:Owner
+m_ipAddresses	msg_server.h	/^    QList<QHostAddress> m_ipAddresses;$/;"	m	class:MsgServer
+m_lastSearch	main_window.h	/^    QString m_lastSearch;$/;"	m	class:MainWindow
+m_lastSearchDialog	main_window.h	/^    QObject *m_lastSearchDialog;$/;"	m	class:MainWindow
+m_levelOneCount	main_window.cpp	/^quint32 MainWindow::m_levelOneCount = 0;$/;"	m	class:MainWindow	file:
+m_levelOneCount	main_window.h	/^    static quint32 m_levelOneCount;$/;"	m	class:MainWindow
+m_levelTwoCount	main_window.cpp	/^quint32 MainWindow::m_levelTwoCount = 0;$/;"	m	class:MainWindow	file:
+m_levelTwoCount	main_window.h	/^    static quint32 m_levelTwoCount;$/;"	m	class:MainWindow
+m_lock	msg_thread.h	/^    QMutex m_lock;$/;"	m	class:MsgThread
+m_lock	recv_file_transfer.h	/^    QMutex m_lock;$/;"	m	class:RecvFileTransfer
+m_lock	send_file_manager.h	/^    QMutex m_lock;$/;"	m	class:SendFileManager
+m_loginName	owner.h	/^    QString m_loginName;$/;"	m	class:Owner
+m_map	recv_file_map.h	/^    QMap<int, RecvFileHandle> m_map;$/;"	m	class:RecvFileMap
+m_map	send_file_map.h	/^    QMap<int, SendFileHandle> m_map;$/;"	m	class:SendFileMap
+m_model	recv_file_model.h	/^    QStandardItemModel *m_model;$/;"	m	class:RecvFileModel
+m_model	send_file_model.h	/^    QStandardItemModel *m_model;$/;"	m	class:SendFileModel
+m_model	transfer_file_model.h	/^    QStandardItemModel *m_model;$/;"	m	class:TransferFileModel
+m_model	user_manager.h	/^    QStandardItemModel *m_model;$/;"	m	class:UserManager
+m_msg	msg_window.h	/^    Msg m_msg;$/;"	m	class:MsgWindow
+m_msgReadedWindowList	window_manager.h	/^    QList<MsgReadedWindow *> m_msgReadedWindowList;$/;"	m	class:WindowManager
+m_msgServer	msg_thread.h	/^    MsgServer *m_msgServer;$/;"	m	class:MsgThread
+m_msgWindowList	window_manager.h	/^    QList<MsgWindow *> m_msgWindowList;$/;"	m	class:WindowManager
+m_mtime	send_file.h	/^    time_t m_mtime;      \/\/ save this to trace if a file changed$/;"	m	class:SendFile
+m_mutex	sound_thread.h	/^    QMutex m_mutex;$/;"	m	class:SoundThread
+m_name	owner.h	/^    QString m_name;$/;"	m	class:Owner
+m_name	recv_file.h	/^    QString m_name;$/;"	m	class:RecvFile
+m_offset	recv_file.h	/^    qint64 m_offset;$/;"	m	class:RecvFile
+m_ourself	user_manager.cpp	/^Owner UserManager::m_ourself;$/;"	m	class:UserManager	file:
+m_ourself	user_manager.h	/^    static Owner m_ourself;$/;"	m	class:UserManager
+m_owner	msg_base.h	/^    Owner m_owner;$/;"	m	class:MsgBase
+m_packet	msg_base.h	/^    QString m_packet;$/;"	m	class:MsgBase
+m_packetNo	helper.cpp	/^qint64 Helper::m_packetNo;$/;"	m	class:Helper	file:
+m_packetNo	helper.h	/^    static qint64 m_packetNo;$/;"	m	class:Helper
+m_packetNoString	msg_base.h	/^    QString m_packetNoString;$/;"	m	class:MsgBase
+m_packetNoString	recv_file.h	/^    QString m_packetNoString;$/;"	m	class:RecvFile
+m_packetNoString	send_file_map.h	/^    QString m_packetNoString;$/;"	m	class:SendFileMap
+m_packetNoString	serve_socket.h	/^    QString m_packetNoString;$/;"	m	class:ServeSocket
+m_path	sound.h	/^    QString m_path;$/;"	m	class:Sound
+m_port	msg_base.h	/^    quint16 m_port;$/;"	m	class:MsgBase
+m_port	owner.h	/^    quint16 m_port;$/;"	m	class:Owner
+m_recvFileMap	msg_window.h	/^    RecvFileMap m_recvFileMap;$/;"	m	class:MsgWindow
+m_recvFileMap	recv_file_finish_dialog.h	/^    RecvFileMap *m_recvFileMap;$/;"	m	class:RecvFileFinishDialog
+m_recvFileMap	recv_file_thread.h	/^    RecvFileMap *m_recvFileMap;$/;"	m	class:RecvFileThread
+m_recvFileMap	recv_file_transfer.h	/^    RecvFileMap *m_recvFileMap;$/;"	m	class:RecvFileTransfer
+m_recvFileMap	retry_recv_file_dialog.h	/^    RecvFileMap *m_recvFileMap;$/;"	m	class:RetryRecvFileDialog
+m_recvFileModel	msg_window.h	/^    RecvFileModel m_recvFileModel;$/;"	m	class:MsgWindow
+m_recvFileThread	msg_window.h	/^    RecvFileThread *m_recvFileThread;$/;"	m	class:MsgWindow
+m_recvFileTransfer	recv_file_thread.h	/^    RecvFileTransfer *m_recvFileTransfer;$/;"	m	class:RecvFileThread
+m_recvHostname	send_file_map.h	/^    QString m_recvHostname;$/;"	m	class:SendFileMap
+m_recvUser	send_file_map.h	/^    QString m_recvUser;$/;"	m	class:SendFileMap
+m_regularFileCount	recv_file.h	/^    int m_regularFileCount;$/;"	m	class:RecvFile
+m_regularFileCount	recv_file_map.h	/^    int m_regularFileCount;$/;"	m	class:RecvFileMap
+m_saveFilePath	recv_file_map.h	/^    QString m_saveFilePath;$/;"	m	class:RecvFileMap
+m_selectedIp	main_window.h	/^    QString m_selectedIp;$/;"	m	class:MainWindow
+m_sendFileMap	main_window.h	/^    SendFileMap *m_sendFileMap;$/;"	m	class:MainWindow
+m_sendFileModel	dir_dialog.h	/^    SendFileModel *m_sendFileModel;$/;"	m	class:DirDialog
+m_sendFileModel	main_window.h	/^    SendFileModel m_sendFileModel;$/;"	m	class:MainWindow
+m_sendFileModel	send_file_window.h	/^    SendFileModel *m_sendFileModel;$/;"	m	class:SendFileWindow
+m_sendMsgMap	msg_thread.h	/^    QMap<QString, Msg> m_sendMsgMap;$/;"	m	class:MsgThread
+m_sendTimes	send_msg.h	/^    int m_sendTimes;$/;"	m	class:SendMsg
+m_size	recv_file.h	/^    qint64 m_size;$/;"	m	class:RecvFile
+m_socketDescriptor	send_file_thread.h	/^    int m_socketDescriptor;$/;"	m	class:SendFileThread
+m_sockfd	serve_socket.h	/^    int     m_sockfd;$/;"	m	class:ServeSocket
+m_soundFile	sound_thread.h	/^    QString m_soundFile;$/;"	m	class:SoundThread
+m_state	recv_file.h	/^    enum States m_state;$/;"	m	class:RecvFile	typeref:enum:RecvFile::States
+m_state	recv_file_map.h	/^    States m_state;$/;"	m	class:RecvFileMap
+m_state	send_file.h	/^    enum States m_state;$/;"	m	class:SendFile	typeref:enum:SendFile::States
+m_state	send_file_map.h	/^    States m_state;$/;"	m	class:SendFileMap
+m_state	send_msg.h	/^    States m_state;$/;"	m	class:SendMsg
+m_tcpSocket	recv_file_transfer.h	/^    QTcpSocket m_tcpSocket;$/;"	m	class:RecvFileTransfer
+m_timer	msg_window.h	/^    QTimer m_timer;$/;"	m	class:MsgWindow
+m_timer	recv_file_map.h	/^    QTimer m_timer;$/;"	m	class:RecvFileMap
+m_totalBytesReaded	recv_file_map.h	/^    qint64 m_totalBytesReaded;$/;"	m	class:RecvFileMap
+m_totalRegularFileCount	recv_file_map.h	/^    int m_totalRegularFileCount;$/;"	m	class:RecvFileMap
+m_transferState	recv_file_map.h	/^    TransferStates m_transferState;$/;"	m	class:RecvFileMap
+m_transferedCount	send_file_map.h	/^    int m_transferedCount;$/;"	m	class:SendFileMap
+m_type	recv_file.h	/^    int m_type;$/;"	m	class:RecvFile
+m_udpSocket	msg_server.h	/^    QUdpSocket m_udpSocket;$/;"	m	class:MsgServer
+magic	sound.cpp	/^    u_int magic;        \/* '.snd' *\/$/;"	m	struct:au_header	file:
+magic	sound.cpp	/^    u_int magic;        \/* 'RIFF' *\/$/;"	m	struct:__anon1	file:
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mainLayout	send_file_window.h	/^    QVBoxLayout *mainLayout;$/;"	m	class:SendFileWindow
+mainWindowList	systray.h	/^    QList<MainWindow *> mainWindowList;$/;"	m	class:Systray
+miscSettingGroupBox	setup_window.h	/^    QGroupBox *miscSettingGroupBox;$/;"	m	class:SetupWindow
+model	dir_dialog.h	/^    QDirModel *model;$/;"	m	class:DirDialog
+modus	sound.cpp	/^    u_short modus;      \/* 1 Mono, 2 Stereo *\/$/;"	m	struct:__anon2	file:
+msgThread	global.cpp	/^MsgThread *Global::msgThread = 0;$/;"	m	class:Global	file:
+myMessageOutput	main.cpp	/^static void myMessageOutput(QtMsgType type, const char *msg) {$/;"	f	file:
+name	owner.h	/^    QString name() const { return m_name; }$/;"	f	class:Owner
+name	recv_file.h	/^    QString name() const { return m_name; }$/;"	f	class:RecvFile
+name	recv_file_transfer.cpp	/^    QString name;$/;"	m	struct:TransferFile	file:
+name	user_manager.cpp	/^QString UserManager::name(int row) const$/;"	f	class:UserManager
+newExitMsg	user_manager.cpp	/^void UserManager::newExitMsg(Msg msg)$/;"	f	class:UserManager
+newMsg	window_manager.cpp	/^void WindowManager::newMsg(Msg msg)$/;"	f	class:WindowManager
+newUserMsg	user_manager.cpp	/^void UserManager::newUserMsg(Msg msg)$/;"	f	class:UserManager
+nickNameEdit	setup_window.h	/^    QLineEdit *nickNameEdit;$/;"	m	class:SetupWindow
+nicknameGroupBox	setup_window.h	/^    QGroupBox *nicknameGroupBox;$/;"	m	class:SetupWindow
+noAutoCloseMsgWindowWhenReply	preferences.h	/^    bool noAutoCloseMsgWindowWhenReply;$/;"	m	class:Preferences
+noAutoCloseReplyCheckBox	setup_window.h	/^    QCheckBox *noAutoCloseReplyCheckBox;$/;"	m	class:DetailTab
+noAutoPopupMsg	setup_window.h	/^    QCheckBox *noAutoPopupMsg;$/;"	m	class:SetupWindow
+noLogLockMsgBeforeOpen	preferences.h	/^    bool noLogLockMsgBeforeOpen;$/;"	m	class:Preferences
+noLogLockMsgBeforeOpenCheckBox	setup_window.h	/^    QCheckBox *noLogLockMsgBeforeOpenCheckBox;$/;"	m	class:LogTab
+noPopupMessageWhenAway	setup_window.h	/^    QCheckBox *noPopupMessageWhenAway;$/;"	m	class:DetailTab
+noSoundAlarm	setup_window.h	/^    QCheckBox *noSoundAlarm;$/;"	m	class:SetupWindow
+nonblock	sound.h	/^    int nonblock;$/;"	m	class:Sound
+noticeSound	preferences.h	/^    QString noticeSound;$/;"	m	class:Preferences
+noticeSoundButton	setup_window.h	/^    QPushButton *noticeSoundButton;$/;"	m	class:OtherTab
+noticeSoundLabel	setup_window.h	/^    QLabel *noticeSoundLabel;$/;"	m	class:OtherTab
+offset	recv_file.h	/^    qint64 offset() const { return m_offset; }$/;"	f	class:RecvFile
+offset	serve_socket.cpp	/^    qint64 offset;$/;"	m	struct:RequsetFile	file:
+okButton	dir_dialog.h	/^    QPushButton *okButton;$/;"	m	class:DirDialog
+okButton	msg_readed_window.h	/^    QPushButton *okButton;$/;"	m	class:MsgReadedWindow
+okButton	setup_window.h	/^    QPushButton *okButton;$/;"	m	class:SetupWindow
+onlineIconButton	setup_window.h	/^    QPushButton *onlineIconButton;$/;"	m	class:OtherTab
+onlineIconLabel	setup_window.h	/^    QLabel *onlineIconLabel;$/;"	m	class:OtherTab
+openDir	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::openDir()$/;"	f	class:RecvFileFinishDialog
+openDirButton	recv_file_finish_dialog.h	/^    QPushButton *openDirButton;$/;"	m	class:RecvFileFinishDialog
+openEnvelope	msg_window.cpp	/^void MsgWindow::openEnvelope()$/;"	f	class:MsgWindow
+openFile	recv_file_finish_dialog.cpp	/^void RecvFileFinishDialog::openFile()$/;"	f	class:RecvFileFinishDialog
+openFileButton	recv_file_finish_dialog.h	/^    QPushButton *openFileButton;$/;"	m	class:RecvFileFinishDialog
+openInternalLogFile	helper.cpp	/^void Helper::openInternalLogFile()$/;"	f	class:Helper
+openLogFile	preferences.cpp	/^void Preferences::openLogFile()$/;"	f	class:Preferences
+openUrlProgram	helper.cpp	/^QString Helper::openUrlProgram()$/;"	f	class:Helper
+open_mode	sound.h	/^    int open_mode;$/;"	m	class:Sound
+operator *	msg.h	/^    const MsgBase &operator*() const {$/;"	f	class:Msg
+operator *	recv_file_handle.h	/^    const RecvFile &operator*() const {$/;"	f	class:RecvFileHandle
+operator *	send_file_handle.h	/^    const SendFile &operator*() const {$/;"	f	class:SendFileHandle
+operator ->	msg.h	/^    MsgBase *operator->() {$/;"	f	class:Msg
+operator ->	msg.h	/^    const MsgBase *operator->() const {$/;"	f	class:Msg
+operator ->	recv_file_handle.h	/^    RecvFile *operator->() {$/;"	f	class:RecvFileHandle
+operator ->	recv_file_handle.h	/^    const RecvFile *operator->() const {$/;"	f	class:RecvFileHandle
+operator ->	send_file_handle.h	/^    SendFile *operator->() {$/;"	f	class:SendFileHandle
+operator ->	send_file_handle.h	/^    const SendFile *operator->() const {$/;"	f	class:SendFileHandle
+operator =	msg.cpp	/^Msg& Msg::operator=(const Msg &rhs)$/;"	f	class:Msg
+operator =	recv_file_handle.cpp	/^RecvFileHandle& RecvFileHandle::operator=(const RecvFileHandle &rhs)$/;"	f	class:RecvFileHandle
+operator =	send_file_handle.cpp	/^SendFileHandle& SendFileHandle::operator=(const SendFileHandle &rhs)$/;"	f	class:SendFileHandle
+otherTab	setup_window.h	/^    OtherTab *otherTab;$/;"	m	class:DetailSetupDialog
+ourself	user_manager.h	/^    Owner ourself() const { return m_ourself; }$/;"	f	class:UserManager
+owner	msg_base.h	/^    virtual const Owner& owner() const { return m_owner; }$/;"	f	class:MsgBase
+p	msg.h	/^    MsgBase *p;             \/\/ pointer to shared item$/;"	m	class:Msg
+p	recv_file_handle.h	/^    RecvFile *p;             \/\/ pointer to shared item$/;"	m	class:RecvFileHandle
+p	send_file_handle.h	/^    SendFile *p;             \/\/ pointer to shared item$/;"	m	class:SendFileHandle
+packet	msg_base.h	/^    virtual QString packet() const { return m_packet; }$/;"	f	class:MsgBase
+packetNo	helper.cpp	/^qint64 Helper::packetNo()$/;"	f	class:Helper
+packetNo	recv_file.h	/^    qint64 packetNo() const {$/;"	f	class:RecvFile
+packetNoString	helper.cpp	/^QString Helper::packetNoString()$/;"	f	class:Helper
+packetNoString	msg_base.h	/^    virtual QString packetNoString() const { return m_packetNoString; }$/;"	f	class:MsgBase
+packetNoString	recv_file.h	/^    QString packetNoString() const { return m_packetNoString; }$/;"	f	class:RecvFile
+packetNoString	send_file_map.h	/^    QString packetNoString() const { return m_packetNoString; }$/;"	f	class:SendFileMap
+packetNoString	transfer_file_model.cpp	/^QString TransferFileModel::packetNoString(int row) const$/;"	f	class:TransferFileModel
+packetString	send_file_map.cpp	/^QString SendFileMap::packetString() const$/;"	f	class:SendFileMap
+paint	sizecolumndelegate.cpp	/^void SizeColumnDelegate::paint(QPainter *painter,$/;"	f	class:SizeColumnDelegate
+parseAdditionalInfo	msg_base.cpp	/^void MsgBase::parseAdditionalInfo()$/;"	f	class:MsgBase
+parseAdditionalInfo	owner.cpp	/^QString Owner::parseAdditionalInfo(QString &packet)$/;"	f	class:Owner
+parseHeader	recv_file_transfer.cpp	/^bool RecvFileTransfer::parseHeader(QByteArray &recvBlock,$/;"	f	class:RecvFileTransfer
+parsePacket	msg_base.cpp	/^void MsgBase::parsePacket()$/;"	f	class:MsgBase
+parseRequestPacket	serve_socket.cpp	/^void ServeSocket::parseRequestPacket(const QByteArray &requestPacket,$/;"	f	class:ServeSocket
+passwordSetupButton	setup_window.h	/^    QPushButton *passwordSetupButton;$/;"	m	class:SetupWindow
+pathList	send_file_model.cpp	/^QStringList SendFileModel::pathList() const$/;"	f	class:SendFileModel
+pbrec_count	sound.h	/^    off64_t pbrec_count;$/;"	m	class:Sound
+pcm_write	sound.cpp	/^ssize_t Sound::pcm_write(u_char *data, size_t count)$/;"	f	class:Sound
+peerWidget	main_window.h	/^    QWidget *peerWidget;$/;"	m	class:MainWindow
+percent	recv_file.cpp	/^double RecvFile::percent() const$/;"	f	class:RecvFile
+period_frames	sound.h	/^    snd_pcm_uframes_t period_frames;$/;"	m	class:Sound
+period_time	sound.h	/^    unsigned period_time;$/;"	m	class:Sound
+play	sound.cpp	/^bool Sound::play()$/;"	f	class:Sound
+play	sound_thread.cpp	/^void SoundThread::play(QString path)$/;"	f	class:SoundThread
+playback	sound.cpp	/^bool Sound::playback(const char *name)$/;"	f	class:Sound
+playback_go	sound.cpp	/^bool Sound::playback_go(int fd, size_t loaded, off64_t count,$/;"	f	class:Sound
+port	msg_base.h	/^    virtual quint16 port() const { return m_port; }$/;"	f	class:MsgBase
+preferences	global.cpp	/^Preferences *Global::preferences = 0;$/;"	m	class:Global	file:
+processEntryMsg	msg_server.cpp	/^void MsgServer::processEntryMsg(Msg msg)$/;"	f	class:MsgServer
+processRecvMsg	msg_server.cpp	/^void MsgServer::processRecvMsg(Msg msg)$/;"	f	class:MsgServer
+processRecvReadMsg	msg_server.cpp	/^void MsgServer::processRecvReadMsg(Msg msg)$/;"	f	class:MsgServer
+processRecvReleaseFilesMsg	msg_server.cpp	/^void MsgServer::processRecvReleaseFilesMsg(Msg msg)$/;"	f	class:MsgServer
+processRecvSendMsg	msg_server.cpp	/^void MsgServer::processRecvSendMsg(Msg msg)$/;"	f	class:MsgServer
+processSendMsg	msg_server.cpp	/^void MsgServer::processSendMsg()$/;"	f	class:MsgServer
+proxyModel	recv_file_window.h	/^    RecvFileSortFilterProxyModel *proxyModel;$/;"	m	class:RecvFileWindow
+proxyModel	send_file_window.h	/^    QSortFilterProxyModel *proxyModel;$/;"	m	class:SendFileWindow
+proxyModel	transfer_file_window.h	/^    QSortFilterProxyModel *proxyModel;$/;"	m	class:TransferFileWindow
+proxyUserModel	main_window.h	/^    QSortFilterProxyModel *proxyUserModel;$/;"	m	class:MainWindow
+qCleanupResources_icons	qrc_icons.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_icons)()$/;"	f
+qInitResources_icons	qrc_icons.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_icons)()$/;"	f
+qtTrans_	translator.h	/^    QTranslator qtTrans_;$/;"	m	class:Translator
+qtTranslationPath	helper.cpp	/^QString Helper::qtTranslationPath()$/;"	f	class:Helper
+qt_resource_data	qrc_icons.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	qrc_icons.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	qrc_icons.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
+quiet_mode	sound.h	/^    int quiet_mode;$/;"	m	class:Sound
+quit	systray.cpp	/^void Systray::quit()$/;"	f	class:Systray
+quitAction	systray.h	/^    QAction *quitAction;$/;"	m	class:Systray
+quoteMark	preferences.h	/^    QString quoteMark;$/;"	m	class:Preferences
+quoteMarkButton	setup_window.h	/^    QPushButton *quoteMarkButton;$/;"	m	class:OtherTab
+quoteMarkLineEdit	setup_window.h	/^    QLineEdit *quoteMarkLineEdit;$/;"	m	class:OtherTab
+quoteMsg	setup_window.h	/^    QCheckBox *quoteMsg;$/;"	m	class:SetupWindow
+quoteMsgCheckBox	msg_window.h	/^    QCheckBox *quoteMsgCheckBox;$/;"	m	class:MsgWindow
+randomNearMiddlePoint	global.cpp	/^QPoint Global::randomNearMiddlePoint()$/;"	f	class:Global
+rate	sound.h	/^        unsigned int rate;$/;"	m	struct:Sound::__anon4
+readCheck	setup_window.h	/^    QCheckBox *readCheck;$/;"	m	class:SetupWindow
+readLog	systray.cpp	/^void Systray::readLog()$/;"	f	class:Systray
+readMsgLogAction	systray.h	/^    QAction *readMsgLogAction;$/;"	m	class:Systray
+readPacket	msg_server.cpp	/^void MsgServer::readPacket()$/;"	f	class:MsgServer
+recvFileDir	recv_file_transfer.cpp	/^bool RecvFileTransfer::recvFileDir(RecvFileHandle h)$/;"	f	class:RecvFileTransfer
+recvFileError	msg_window.cpp	/^void MsgWindow::recvFileError(QString errorString)$/;"	f	class:MsgWindow
+recvFileFinish	msg_window.cpp	/^void MsgWindow::recvFileFinish()$/;"	f	class:MsgWindow
+recvFileModel	msg_window.h	/^    const RecvFileModel& recvFileModel() const { return m_recvFileModel; }$/;"	f	class:MsgWindow
+recvFileRegular	recv_file_transfer.cpp	/^bool RecvFileTransfer::recvFileRegular(RecvFileHandle h)$/;"	f	class:RecvFileTransfer
+recvFileView	recv_file_window.h	/^    QTableView *recvFileView;$/;"	m	class:RecvFileWindow
+recvUserInfo	send_file_map.cpp	/^QString SendFileMap::recvUserInfo() const$/;"	f	class:SendFileMap
+refreshButton	main_window.h	/^    QPushButton *refreshButton;$/;"	m	class:MainWindow
+refreshUserList	main_window.cpp	/^void MainWindow::refreshUserList()$/;"	f	class:MainWindow
+regularFileCount	recv_file_map.h	/^    int regularFileCount() const { return m_regularFileCount; }$/;"	f	class:RecvFileMap
+removeMsgReadedWindow	window_manager.h	/^    void removeMsgReadedWindow(MsgReadedWindow *w) {$/;"	f	class:WindowManager
+removeMsgWindow	window_manager.h	/^    void removeMsgWindow(MsgWindow *w) {$/;"	f	class:WindowManager
+removeRecvOkFile	msg_window.cpp	/^void MsgWindow::removeRecvOkFile()$/;"	f	class:MsgWindow
+removeRow	recv_file_model.cpp	/^void RecvFileModel::removeRow(int id)$/;"	f	class:RecvFileModel
+removeRow	transfer_file_model.cpp	/^void TransferFileModel::removeRow(const QString &key)$/;"	f	class:TransferFileModel
+removeRows	send_file_model.cpp	/^void SendFileModel::removeRows(QList<int> rowList)$/;"	f	class:SendFileModel
+removeSendMsg	msg_thread.cpp	/^void MsgThread::removeSendMsg(QString packetNoString)$/;"	f	class:MsgThread
+removeSendMsgNotLock	msg_thread.cpp	/^void MsgThread::removeSendMsgNotLock(QString packetNoString)$/;"	f	class:MsgThread
+removeTransfer	send_file_manager.cpp	/^void SendFileManager::removeTransfer(QString key)$/;"	f	class:SendFileManager
+removeTransferLocked	send_file_manager.cpp	/^void SendFileManager::removeTransferLocked(QString key)$/;"	f	class:SendFileManager
+replyButton	msg_window.h	/^    QPushButton *replyButton;$/;"	m	class:MsgWindow
+reset	preferences.cpp	/^void Preferences::reset()$/;"	f	class:Preferences
+resetConnections	msg_window.cpp	/^void MsgWindow::resetConnections()$/;"	f	class:MsgWindow
+resetStats	recv_file.cpp	/^void RecvFile::resetStats()$/;"	f	class:RecvFile
+resetStats	recv_file_map.cpp	/^void RecvFileMap::resetStats()$/;"	f	class:RecvFileMap
+resumeTransfer	recv_file_thread.cpp	/^void RecvFileThread::resumeTransfer()$/;"	f	class:RecvFileThread
+resumeTransfer	recv_file_transfer.cpp	/^void RecvFileTransfer::resumeTransfer()$/;"	f	class:RecvFileTransfer
+retryButton	retry_recv_file_dialog.h	/^    QPushButton *retryButton;$/;"	m	class:RetryRecvFileDialog
+retryGetFile	retry_recv_file_dialog.cpp	/^void RetryRecvFileDialog::retryGetFile()$/;"	f	class:RetryRecvFileDialog
+retryRecvFile	msg_window.cpp	/^void MsgWindow::retryRecvFile()$/;"	f	class:MsgWindow
+retryTransfer	msg_window.cpp	/^void MsgWindow::retryTransfer()$/;"	f	class:MsgWindow
+rhwparams	sound.h	/^    } hwparams, rhwparams;$/;"	m	class:Sound	typeref:struct:Sound::__anon4
+rowCount	recv_file_model.h	/^    int rowCount() const { return m_model->rowCount(); }$/;"	f	class:RecvFileModel
+rowCount	send_file_model.h	/^    int rowCount() const { return m_model->rowCount(); }$/;"	f	class:SendFileModel
+run	msg_thread.cpp	/^void MsgThread::run()$/;"	f	class:MsgThread
+run	recv_file_thread.cpp	/^void RecvFileThread::run()$/;"	f	class:RecvFileThread
+run	send_file_thread.cpp	/^void SendFileThread::run()$/;"	f	class:SendFileThread
+run	sound_thread.cpp	/^void SoundThread::run()$/;"	f	class:SoundThread
+runRecvFileThread	msg_window.cpp	/^void MsgWindow::runRecvFileThread()$/;"	f	class:MsgWindow
+safe_read	sound.cpp	/^ssize_t Sound::safe_read(int fd, void *buf, size_t count)$/;"	f	class:Sound
+sample_fq	sound.cpp	/^    u_int sample_fq;    \/* frequence of sample *\/$/;"	m	struct:__anon2	file:
+sample_rate	sound.cpp	/^    u_int sample_rate;  \/* sample rate *\/$/;"	m	struct:au_header	file:
+save	preferences.cpp	/^void Preferences::save()$/;"	f	class:Preferences
+save	recv_file_window.cpp	/^void RecvFileWindow::save()$/;"	f	class:RecvFileWindow
+save	setup_window.cpp	/^void DetailSetupDialog::save()$/;"	f	class:DetailSetupDialog
+save	setup_window.cpp	/^void DetailTab::save()$/;"	f	class:DetailTab
+save	setup_window.cpp	/^void LogTab::save()$/;"	f	class:LogTab
+save	setup_window.cpp	/^void OtherTab::save()$/;"	f	class:OtherTab
+save	setup_window.cpp	/^void TransferTab::save()$/;"	f	class:TransferTab
+saveButton	recv_file_window.h	/^    QPushButton *saveButton;$/;"	m	class:RecvFileWindow
+saveData	recv_file_transfer.cpp	/^bool RecvFileTransfer::saveData(QByteArray recvBlock, QFile &file)$/;"	f	class:RecvFileTransfer
+saveFile	msg_window.cpp	/^void MsgWindow::saveFile(QList<int> fileIdList, QString saveFileDir)$/;"	f	class:MsgWindow
+saveFilePath	recv_file_map.h	/^    QString saveFilePath() const { return m_saveFilePath; }$/;"	f	class:RecvFileMap
+savePreferences	setup_window.cpp	/^void SetupWindow::savePreferences()$/;"	f	class:SetupWindow
+sealedButton	msg_window.h	/^    QPushButton *sealedButton;$/;"	m	class:MsgWindow
+sealedSend	setup_window.h	/^    QCheckBox *sealedSend;$/;"	m	class:SetupWindow
+search	main_window.cpp	/^void MainWindow::search(QString searchString)$/;"	f	class:MainWindow
+search	search_user_dialog.cpp	/^void SearchUserDialog::search()$/;"	f	class:SearchUserDialog
+searchButton	search_user_dialog.h	/^    QPushButton *searchButton;$/;"	m	class:SearchUserDialog
+searchCombox	search_user_dialog.h	/^    QComboBox *searchCombox;$/;"	m	class:SearchUserDialog
+searchItems	main_window.cpp	/^QList<QStandardItem*> MainWindow::searchItems(QString searchString) const$/;"	f	class:MainWindow
+searchUserAct	main_window.h	/^    QAction *searchUserAct;$/;"	m	class:MainWindow
+secondStringUnit	helper.cpp	/^QString Helper::secondStringUnit(int second)$/;"	f	class:Helper
+selectAll	recv_file_window.cpp	/^void RecvFileWindow::selectAll()$/;"	f	class:RecvFileWindow
+selectAllButton	recv_file_window.h	/^    QPushButton *selectAllButton;$/;"	m	class:RecvFileWindow
+selectDir	dir_dialog.cpp	/^void DirDialog::selectDir()$/;"	f	class:DirDialog
+selectGroup	main_window.cpp	/^void MainWindow::selectGroup()$/;"	f	class:MainWindow
+selectGroupMenu	main_window.h	/^    QMenu *selectGroupMenu;$/;"	m	class:MainWindow
+selectSaveDirectory	recv_file_window.cpp	/^QString RecvFileWindow::selectSaveDirectory()$/;"	f	class:RecvFileWindow
+selectUser	main_window.cpp	/^void MainWindow::selectUser()$/;"	f	class:MainWindow
+selectionModel	dir_dialog.h	/^    QItemSelectionModel *selectionModel;$/;"	m	class:DirDialog
+sem	send_file_map.h	/^    QSemaphore sem;$/;"	m	class:SendFileMap
+sendButton	main_window.h	/^    QPushButton *sendButton;$/;"	m	class:MainWindow
+sendDirAct	main_window.h	/^    QAction *sendDirAct;$/;"	m	class:MainWindow
+sendFileAct	main_window.h	/^    QAction *sendFileAct;$/;"	m	class:MainWindow
+sendFileManager	global.cpp	/^SendFileManager *Global::sendFileManager = 0;$/;"	m	class:Global	file:
+sendFileView	send_file_window.h	/^    QTableView *sendFileView;$/;"	m	class:SendFileWindow
+sendFileWindow	main_window.h	/^    SendFileWindow *sendFileWindow;$/;"	m	class:MainWindow
+sendGridLayout	main_window.h	/^    QGridLayout *sendGridLayout;$/;"	m	class:MainWindow
+sendLayout	main_window.h	/^    QHBoxLayout *sendLayout;$/;"	m	class:MainWindow
+sendMessage	main_window.cpp	/^void MainWindow::sendMessage()$/;"	f	class:MainWindow
+sendReceiveSettingsGroupBox	setup_window.h	/^    QGroupBox *sendReceiveSettingsGroupBox;$/;"	m	class:SetupWindow
+sendStats	send_file_map.cpp	/^QString SendFileMap::sendStats() const$/;"	f	class:SendFileMap
+sendTimes	msg_base.h	/^    virtual int sendTimes() const {}$/;"	f	class:MsgBase
+sendTimes	send_msg.h	/^    int sendTimes() const { return m_sendTimes; }$/;"	f	class:SendMsg
+senderInfoLabel	msg_window.h	/^    QLabel *senderInfoLabel;$/;"	m	class:MsgWindow
+setAllWindowVisible	systray.cpp	/^void Systray::setAllWindowVisible()$/;"	f	class:Systray
+setAppPath	helper.cpp	/^void Helper::setAppPath(QString path)$/;"	f	class:Helper
+setBytesReaded	recv_file.h	/^    void setBytesReaded(qint64 bytesReaded) { m_bytesReaded = bytesReaded; }$/;"	f	class:RecvFile
+setCurrentId	recv_file_map.h	/^    void setCurrentId(int id) { m_currentId = id; }$/;"	f	class:RecvFileMap
+setDisplayLevel	owner.h	/^    void setDisplayLevel(QString displayLevel) {$/;"	f	class:Owner
+setDisplayLevelMenu	main_window.h	/^    QMenu *setDisplayLevelMenu;$/;"	m	class:MainWindow
+setEndTime	recv_file.h	/^    void setEndTime() { m_end = QDateTime::currentDateTime(); }$/;"	f	class:RecvFile
+setEndTime	recv_file_map.h	/^    void setEndTime() { m_end = QDateTime::currentDateTime(); }$/;"	f	class:RecvFileMap
+setGroup	owner.h	/^    void setGroup(QString group) { m_group = group; }$/;"	f	class:Owner
+setHost	owner.h	/^    void setHost(QString host) { m_host = host; }$/;"	f	class:Owner
+setIniPath	helper.cpp	/^void Helper::setIniPath(QString path)$/;"	f	class:Helper
+setInternalLogFileName	helper.cpp	/^void Helper::setInternalLogFileName(QString filePath)$/;"	f	class:Helper
+setLastModified	recv_file_transfer.cpp	/^void RecvFileTransfer::setLastModified(QString path, QString secondString)$/;"	f	class:RecvFileTransfer
+setLastModified	recv_file_transfer.cpp	/^void RecvFileTransfer::setLastModified(RecvFileHandle h)$/;"	f	class:RecvFileTransfer
+setLevelOneAct	main_window.h	/^    QAction *setLevelOneAct;$/;"	m	class:MainWindow
+setLevelTwoAct	main_window.h	/^    QAction *setLevelTwoAct;$/;"	m	class:MainWindow
+setLockFile	lockfile.cpp	/^void LockFile::setLockFile(QString name)$/;"	f	class:LockFile
+setLoginName	owner.h	/^    void setLoginName(QString loginName) { m_loginName = loginName; }$/;"	f	class:Owner
+setName	owner.h	/^    void setName(QString name) { m_name = name; }$/;"	f	class:Owner
+setPacketNo	helper.cpp	/^void Helper::setPacketNo(qint64 n)$/;"	f	class:Helper
+setPacketNoString	send_file_map.h	/^    void setPacketNoString(QString s) { m_packetNoString = s; }$/;"	f	class:SendFileMap
+setRecvHostname	send_file_map.h	/^    void setRecvHostname(QString hostname) { m_recvHostname = hostname; }$/;"	f	class:SendFileMap
+setRecvUser	send_file_map.h	/^    void setRecvUser(QString user) { m_recvUser = user; }$/;"	f	class:SendFileMap
+setSaveFilePath	recv_file_map.h	/^    void setSaveFilePath(QString path) { m_saveFilePath = path; }$/;"	f	class:RecvFileMap
+setSourceModel	main_window.cpp	/^void MainWindow::setSourceModel()$/;"	f	class:MainWindow
+setStartTime	recv_file.h	/^    void setStartTime() { m_begin = QDateTime::currentDateTime(); }$/;"	f	class:RecvFile
+setStartTime	recv_file_map.h	/^    void setStartTime() { m_begin = QDateTime::currentDateTime(); }$/;"	f	class:RecvFileMap
+setState	msg_base.h	/^    virtual void setState(States state) {}$/;"	f	class:MsgBase
+setState	recv_file.h	/^    void setState(States state) { m_state = state; }$/;"	f	class:RecvFile
+setState	recv_file_map.h	/^    void setState(States state) { m_state = state; }$/;"	f	class:RecvFileMap
+setState	send_file.h	/^    void setState(States state) { m_state = state; }$/;"	f	class:SendFile
+setState	send_file_map.h	/^    void setState(States state) { m_state = state; }$/;"	f	class:SendFileMap
+setState	send_msg.h	/^    void setState(States state) { m_state = state; }$/;"	f	class:SendMsg
+setTransCodec	transfer_codec.cpp	/^void TransferCodec::setTransCodec(const QString &codecName)$/;"	f	class:TransferCodec
+setTransferState	recv_file_map.h	/^    void setTransferState(TransferStates state) { m_transferState = state; }$/;"	f	class:RecvFileMap
+set_params	sound.cpp	/^bool Sound::set_params(void)$/;"	f	class:Sound
+settings	global.cpp	/^QSettings *Global::settings = 0;$/;"	m	class:Global	file:
+setup	systray.cpp	/^void Systray::setup()$/;"	f	class:Systray
+setupAction	systray.h	/^    QAction *setupAction;$/;"	m	class:Systray
+show	systray.cpp	/^void Systray::show()$/;"	f	class:Systray
+showRecvFile	msg_window.cpp	/^void MsgWindow::showRecvFile()$/;"	f	class:MsgWindow
+showReplyMsgBox	msg_window.cpp	/^void MsgWindow::showReplyMsgBox()$/;"	f	class:MsgWindow
+showSearchDialog	main_window.cpp	/^void MainWindow::showSearchDialog()$/;"	f	class:MainWindow
+showSendFileList	main_window.cpp	/^void MainWindow::showSendFileList()$/;"	f	class:MainWindow
+showTransferFile	systray.cpp	/^void Systray::showTransferFile()$/;"	f	class:Systray
+showTransferFileAction	systray.h	/^    QAction *showTransferFileAction;$/;"	m	class:Systray
+showUserList	systray.h	/^    QAction *showUserList;$/;"	m	class:Systray
+singleClickCheckBox	setup_window.h	/^    QCheckBox *singleClickCheckBox;$/;"	m	class:DetailTab
+size	recv_file.h	/^    qint64 size() const { return m_size; }$/;"	f	class:RecvFile
+size	recv_file_transfer.cpp	/^    qint64 size;$/;"	m	struct:TransferFile	file:
+sizeHint	about_dialog.cpp	/^QSize AboutDialog::sizeHint() const$/;"	f	class:AboutDialog
+sizeHint	dir_dialog.cpp	/^QSize DirDialog::sizeHint() const$/;"	f	class:DirDialog
+sizeHint	main_window.cpp	/^QSize MainWindow::sizeHint() const$/;"	f	class:MainWindow
+sizeHint	msg_readed_window.cpp	/^QSize MsgReadedWindow::sizeHint() const$/;"	f	class:MsgReadedWindow
+sizeHint	msg_window.cpp	/^QSize MsgWindow::sizeHint() const$/;"	f	class:MsgWindow
+sizeHint	recv_file_window.cpp	/^QSize RecvFileWindow::sizeHint() const$/;"	f	class:RecvFileWindow
+sizeHint	search_user_dialog.cpp	/^QSize SearchUserDialog::sizeHint()$/;"	f	class:SearchUserDialog
+sizeHint	send_file_window.cpp	/^QSize SendFileWindow::sizeHint() const$/;"	f	class:SendFileWindow
+sizeHint	setup_window.cpp	/^QSize DetailSetupDialog::sizeHint() const$/;"	f	class:DetailSetupDialog
+sizeHint	setup_window.cpp	/^QSize SetupWindow::sizeHint() const$/;"	f	class:SetupWindow
+sizeHint	transfer_file_window.cpp	/^QSize TransferFileWindow::sizeHint() const$/;"	f	class:TransferFileWindow
+sizeInfo	send_file_map.cpp	/^QString SendFileMap::sizeInfo() const$/;"	f	class:SendFileMap
+sizeString	recv_file.cpp	/^QString RecvFile::sizeString() const$/;"	f	class:RecvFile
+sizeString	send_file_model.cpp	/^QString SendFileModel::sizeString(QFileInfo &fileInfo) const$/;"	f	class:SendFileModel
+sizeStringUnit	helper.cpp	/^QString Helper::sizeStringUnit(double size, QString sep)$/;"	f	class:Helper
+sleep_min	sound.h	/^    unsigned int sleep_min;$/;"	m	class:Sound
+socketEerror	msg_server.cpp	/^void MsgServer::socketEerror(QAbstractSocket::SocketError errorCode)$/;"	f	class:MsgServer
+soundPath	helper.cpp	/^QString Helper::soundPath()$/;"	f	class:Helper
+soundThread	global.cpp	/^SoundThread *Global::soundThread = 0;$/;"	m	class:Global	file:
+splitter	main_window.h	/^    QSplitter *splitter;$/;"	m	class:MainWindow
+start	msg_server.cpp	/^void MsgServer::start()$/;"	f	class:MsgServer
+startListening	file_server.cpp	/^void FileServer::startListening()$/;"	f	class:FileServer
+startSendFile	serve_socket.cpp	/^bool ServeSocket::startSendFile()$/;"	f	class:ServeSocket
+startTimer	recv_file_map.h	/^    void startTimer() { m_timer.start(1000); }$/;"	f	class:RecvFileMap
+startTransfer	recv_file_transfer.cpp	/^void RecvFileTransfer::startTransfer()$/;"	f	class:RecvFileTransfer
+start_delay	sound.h	/^    int start_delay;$/;"	m	class:Sound
+state	msg_base.h	/^    virtual MsgBase::States state() const {}$/;"	f	class:MsgBase
+state	recv_file.h	/^    States state() const { return m_state; }$/;"	f	class:RecvFile
+state	recv_file_map.h	/^    States state() const { return m_state; }$/;"	f	class:RecvFileMap
+state	send_file.h	/^    States state() const { return m_state; }$/;"	f	class:SendFile
+state	send_file_map.h	/^    States state() const { return m_state; }$/;"	f	class:SendFileMap
+state	send_msg.h	/^    MsgBase::States state() const { return m_state; }$/;"	f	class:SendMsg
+statsGroupBox	recv_file_finish_dialog.h	/^    QGroupBox *statsGroupBox;$/;"	m	class:RecvFileFinishDialog
+statsGroupBox	retry_recv_file_dialog.h	/^    QGroupBox *statsGroupBox;$/;"	m	class:RetryRecvFileDialog
+statsLabel	recv_file_finish_dialog.h	/^    QLabel *statsLabel;$/;"	m	class:RecvFileFinishDialog
+statsLabel	retry_recv_file_dialog.h	/^    QLabel *statsLabel;$/;"	m	class:RetryRecvFileDialog
+stopTimer	recv_file_map.h	/^    void stopTimer() { m_timer.stop(); }$/;"	f	class:RecvFileMap
+stopTransfer	recv_file_transfer.cpp	/^void RecvFileTransfer::stopTransfer()$/;"	f	class:RecvFileTransfer
+stop_delay	sound.h	/^    int stop_delay;$/;"	m	class:Sound
+stream	sound.h	/^    snd_pcm_stream_t stream;$/;"	m	class:Sound
+string	msg_readed_window.h	/^    QString string;$/;"	m	class:MsgReadedWindow
+suspend	sound.cpp	/^bool Sound::suspend(void)$/;"	f	class:Sound
+systray	global.cpp	/^Systray *Global::systray = 0;$/;"	m	class:Global	file:
+tabWidget	about_dialog.h	/^    QTabWidget *tabWidget;$/;"	m	class:AboutDialog
+tabWidget	setup_window.h	/^    QTabWidget *tabWidget;$/;"	m	class:DetailSetupDialog
+tcpSendDir	serve_socket.cpp	/^bool ServeSocket::tcpSendDir(QString filePath)$/;"	f	class:ServeSocket
+tcpSendFile	serve_socket.cpp	/^bool ServeSocket::tcpSendFile(QString filePath, qint64 offset)$/;"	f	class:ServeSocket
+tcpWriteBlock	serve_socket.cpp	/^bool ServeSocket::tcpWriteBlock(QByteArray &block)$/;"	f	class:ServeSocket
+test_wavefile	sound.cpp	/^ssize_t Sound::test_wavefile(int fd, u_char *_buffer, size_t size)$/;"	f	class:Sound
+test_wavefile_read	sound.cpp	/^size_t Sound::test_wavefile_read(int fd, u_char *buffer, size_t *size,$/;"	f	class:Sound
+textEdit	msg_window.h	/^    QTextEdit *textEdit;$/;"	m	class:MsgWindow
+timelimit	sound.h	/^    int timelimit;$/;"	m	class:Sound
+timerEvent	systray.cpp	/^void Systray::timerEvent(QTimerEvent *event)$/;"	f	class:Systray
+timersub	sound.cpp	110;"	d	file:
+timersub	sound.cpp	446;"	d	file:
+topWindowAction	systray.h	/^    QAction *topWindowAction;$/;"	m	class:Systray
+totalRegularFileCount	recv_file_map.h	/^    int totalRegularFileCount() const { return m_totalRegularFileCount; }$/;"	f	class:RecvFileMap
+totalTransferRateAvg	recv_file_map.h	/^    double totalTransferRateAvg() const {$/;"	f	class:RecvFileMap
+trad	about_dialog.cpp	/^static QString trad(const QString &lang, const QString &author)$/;"	f	file:
+transferCodec	global.cpp	/^TransferCodec *Global::transferCodec = 0;$/;"	m	class:Global	file:
+transferCodecName	preferences.h	/^    QString transferCodecName;$/;"	m	class:Preferences
+transferCount	send_file_map.h	/^    int transferCount() const { return m_transferedCount; }$/;"	f	class:SendFileMap
+transferFileMap	send_file_manager.h	/^    QMap<QString, SendFileMap *> transferFileMap;$/;"	m	class:SendFileManager
+transferFileModel	send_file_manager.h	/^    TransferFileModel transferFileModel;$/;"	m	class:SendFileManager
+transferFileView	transfer_file_window.h	/^    QTableView *transferFileView;$/;"	m	class:TransferFileWindow
+transferRateAvg	recv_file.cpp	/^double RecvFile::transferRateAvg() const$/;"	f	class:RecvFile
+transferState	recv_file_map.h	/^    TransferStates transferState() const { return m_transferState; }$/;"	f	class:RecvFileMap
+transferStatsInfo	recv_file.cpp	/^QString RecvFile::transferStatsInfo() const$/;"	f	class:RecvFile
+transferStatsInfo	recv_file_map.cpp	/^QString RecvFileMap::transferStatsInfo() const$/;"	f	class:RecvFileMap
+transferTab	setup_window.h	/^    TransferTab *transferTab;$/;"	m	class:DetailSetupDialog
+translationPath	helper.cpp	/^QString Helper::translationPath()$/;"	f	class:Helper
+trayIcon	systray.h	/^    QSystemTrayIcon *trayIcon;$/;"	m	class:Systray
+trayIconActivated	systray.cpp	/^void Systray::trayIconActivated(QSystemTrayIcon::ActivationReason reason)$/;"	f	class:Systray
+trayIconMenu	systray.h	/^    QMenu *trayIconMenu;$/;"	m	class:Systray
+tree	dir_dialog.h	/^    QTreeView *tree;$/;"	m	class:DirDialog
+type	recv_file.h	/^    int type() const { return m_type; }$/;"	f	class:RecvFile
+type	recv_file_transfer.cpp	/^    int type;$/;"	m	struct:TransferFile	file:
+type	send_file.cpp	/^int SendFile::type() const$/;"	f	class:SendFile
+type	sound.cpp	/^    u_int type;         \/* 'WAVE' *\/$/;"	m	struct:__anon1	file:
+type	sound.cpp	/^    u_int type;         \/* 'data' *\/$/;"	m	struct:__anon3	file:
+updateAddresses	msg_server.cpp	/^void MsgServer::updateAddresses()$/;"	f	class:MsgServer
+updateConnections	msg_window.cpp	/^void MsgWindow::updateConnections()$/;"	f	class:MsgWindow
+updateFileCount	main_window.cpp	/^void MainWindow::updateFileCount()$/;"	f	class:MainWindow
+updateFileCount	msg_window.cpp	/^void MsgWindow::updateFileCount()$/;"	f	class:MsgWindow
+updateOurself	user_manager.cpp	/^void UserManager::updateOurself()$/;"	f	class:UserManager
+updateSelectGroupMenu	main_window.cpp	/^void MainWindow::updateSelectGroupMenu()$/;"	f	class:MainWindow
+updateToolTip	systray.cpp	/^void Systray::updateToolTip(int i)$/;"	f	class:Systray
+updateTransfer	transfer_file_model.cpp	/^void TransferFileModel::updateTransfer(QString packetNoString)$/;"	f	class:TransferFileModel
+updateTransferCount	systray.cpp	/^void Systray::updateTransferCount(int count)$/;"	f	class:Systray
+updateTransferStatsInfo	msg_window.cpp	/^void MsgWindow::updateTransferStatsInfo()$/;"	f	class:MsgWindow
+updateUser	user_manager.cpp	/^void UserManager::updateUser(const Owner &owner, int row)$/;"	f	class:UserManager
+updateUserCount	main_window.cpp	/^void MainWindow::updateUserCount(int i)$/;"	f	class:MainWindow
+urlLinkSetupButton	setup_window.h	/^    QPushButton *urlLinkSetupButton;$/;"	m	class:SetupWindow
+use	msg.h	/^    qint32 *use;       \/\/ pointer to shared use count$/;"	m	class:Msg
+use	recv_file_handle.h	/^    qint32 *use;       \/\/ pointer to shared use count$/;"	m	class:RecvFileHandle
+use	send_file_handle.h	/^    qint32 *use;       \/\/ pointer to shared use count$/;"	m	class:SendFileHandle
+userCountLabel	main_window.h	/^    QLabel *userCountLabel;$/;"	m	class:MainWindow
+userManager	global.cpp	/^UserManager *Global::userManager = 0;$/;"	m	class:Global	file:
+userName	preferences.h	/^    QString userName;$/;"	m	class:Preferences
+userSearchHistory	preferences.h	/^    QString userSearchHistory;$/;"	m	class:Preferences
+userSearchList	preferences.h	/^    QStringList userSearchList;$/;"	m	class:Preferences
+userSpecifiedBroadcastIp	preferences.h	/^    QString userSpecifiedBroadcastIp;$/;"	m	class:Preferences
+userSpecifiedBroadcastIpList	preferences.h	/^    QStringList userSpecifiedBroadcastIpList;$/;"	m	class:Preferences
+userView	main_window.h	/^    QTableView *userView;$/;"	m	class:MainWindow
+verbose	sound.h	/^    int verbose;$/;"	m	class:Sound
+visibleAllMainWindow	systray.cpp	/^void Systray::visibleAllMainWindow()$/;"	f	class:Systray
+visibleAllMsgReadedWindow	window_manager.cpp	/^void WindowManager::visibleAllMsgReadedWindow()$/;"	f	class:WindowManager
+visibleAllMsgWindow	window_manager.cpp	/^void WindowManager::visibleAllMsgWindow()$/;"	f	class:WindowManager
+visibleMsgWindow	window_manager.cpp	/^void WindowManager::visibleMsgWindow()$/;"	f	class:WindowManager
+what	sound.cpp	/^    const char *what;$/;"	m	struct:fmt	file:
+windowManager	global.cpp	/^WindowManager *Global::windowManager = 0;$/;"	m	class:Global	file:
+writeInternalLog	helper.cpp	/^void Helper::writeInternalLog(QString line)$/;"	f	class:Helper
+xrun	sound.cpp	/^bool Sound::xrun(void)$/;"	f	class:Sound
+~AboutDialog	about_dialog.cpp	/^AboutDialog::~AboutDialog()$/;"	f	class:AboutDialog
+~DetailSetupDialog	setup_window.h	/^    virtual ~DetailSetupDialog() {}$/;"	f	class:DetailSetupDialog
+~DirDialog	dir_dialog.h	/^    virtual ~DirDialog() {}$/;"	f	class:DirDialog
+~FileServer	file_server.cpp	/^FileServer::~FileServer()$/;"	f	class:FileServer
+~MainWindow	main_window.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~Msg	msg.h	/^    ~Msg() { decr_use(); }$/;"	f	class:Msg
+~MsgBase	msg_base.cpp	/^MsgBase::~MsgBase()$/;"	f	class:MsgBase
+~MsgReadedWindow	msg_readed_window.h	/^    virtual ~MsgReadedWindow() {}$/;"	f	class:MsgReadedWindow
+~MsgThread	msg_thread.cpp	/^MsgThread::~MsgThread()$/;"	f	class:MsgThread
+~Preferences	preferences.cpp	/^Preferences::~Preferences()$/;"	f	class:Preferences
+~QIpMsg	qipmsg.cpp	/^QIpMsg::~QIpMsg()$/;"	f	class:QIpMsg
+~RecvFile	recv_file.cpp	/^RecvFile::~RecvFile()$/;"	f	class:RecvFile
+~RecvFileHandle	recv_file_handle.h	/^    ~RecvFileHandle() { decr_use(); }$/;"	f	class:RecvFileHandle
+~RecvFileModel	recv_file_model.h	/^    ~RecvFileModel() { delete m_model; }$/;"	f	class:RecvFileModel
+~RecvFileThread	recv_file_thread.h	/^    ~RecvFileThread()$/;"	f	class:RecvFileThread
+~RecvFileWindow	recv_file_window.h	/^    virtual ~RecvFileWindow() {}$/;"	f	class:RecvFileWindow
+~RecvMsg	recv_msg.h	/^    virtual ~RecvMsg() {}$/;"	f	class:RecvMsg
+~SendFile	send_file.cpp	/^SendFile::~SendFile()$/;"	f	class:SendFile
+~SendFileHandle	send_file_handle.h	/^    ~SendFileHandle() { decr_use(); }$/;"	f	class:SendFileHandle
+~SendFileManager	send_file_manager.cpp	/^SendFileManager::~SendFileManager()$/;"	f	class:SendFileManager
+~SendFileModel	send_file_model.h	/^    ~SendFileModel() { delete m_model; }$/;"	f	class:SendFileModel
+~SendFileWindow	send_file_window.h	/^    virtual ~SendFileWindow() {}$/;"	f	class:SendFileWindow
+~SendMsg	send_msg.cpp	/^SendMsg::~SendMsg()$/;"	f	class:SendMsg
+~ServeSocket	serve_socket.cpp	/^ServeSocket::~ServeSocket()$/;"	f	class:ServeSocket
+~SetupWindow	setup_window.h	/^    virtual ~SetupWindow() {}$/;"	f	class:SetupWindow
+~Sound	sound.h	/^    ~Sound() {};$/;"	f	class:Sound
+~SoundThread	sound_thread.cpp	/^SoundThread::~SoundThread()$/;"	f	class:SoundThread
+~Systray	systray.cpp	/^Systray::~Systray()$/;"	f	class:Systray
+~TransferFileModel	transfer_file_model.cpp	/^TransferFileModel::~TransferFileModel()$/;"	f	class:TransferFileModel
+~TransferFileWindow	transfer_file_window.h	/^    virtual ~TransferFileWindow() {}$/;"	f	class:TransferFileWindow
+~WindowManager	window_manager.cpp	/^WindowManager::~WindowManager()$/;"	f	class:WindowManager
