@@ -362,22 +362,9 @@ void Systray::twinkleIcon()
     trayIcon->setIcon(*Global::iconSet.value(m_iconKey));
 }
 
-//void Systray::onSystemTrayIconClicked(QSystemTrayIcon::ActivationReason reason)
-//{
-//    switch(reason)
-//    {
-//    case QSystemTrayIcon::Trigger:
-//    case QSystemTrayIcon::DoubleClick:
-//        m_timer.stop();
-//        trayIcon->setIcon(*Global::iconSet.value("normal"));
-//          break;
-//    default:
-//          break;
-//    }
-//}
- 
 void Systray::clearNotify()
 {
     m_timer->stop();
     trayIcon->setIcon(*Global::iconSet.value("normal"));
 }
+
