@@ -56,7 +56,6 @@ private slots:
     void updateToolTip(int i);
     void updateTransferCount(int);
     void twinkleIcon();
-//    void onSystemTrayIconClicked(QSystemTrayIcon::ActivationReason re);
 
 private slots:
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);
