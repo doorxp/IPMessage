@@ -24,6 +24,7 @@
 #include "sound_thread.h"
 #include "sound.h"
 #include "preferences.h"
+#include "systray.h"
 
 #include <QPoint>
 #include <QSize>
@@ -74,7 +75,7 @@ void WindowManager::createMsgWindow(Msg msg)
 
     if (!Global::preferences->isNoAutoPopupMsg) {
         //msgWindow->show();
-        qDebug() << "MSG : " << msg->additionalInfo() << endl;
+        //qDebug() << "MSG : " << msg->additionalInfo() << endl;
         createMsgReadedWindow(msg);
     }
 }
@@ -96,6 +97,9 @@ void WindowManager::createMsgReadedWindow(Msg msg)
     }
 
     pcw->readMessage(msg);
+
+    Global::systray->notifyMessage(pcw);
+
     pcw->show();
 }
 

@@ -376,6 +376,10 @@ void ChatWindow::sendMessage()
                     USER_VIEW_HOST_COLUMN)).toString();
 
         QString additionalInfo = inputEdit->toPlainText();
+        if("" == additionalInfo.trimmed()) //no input content
+        {
+            break;
+        }
 
         //echo message in histroy window
         Owner self = Global::userManager->ourself();
@@ -418,6 +422,7 @@ void ChatWindow::sendMessage()
     }
 
     inputEdit->setText(""); //clear the input dialog
+    Global::systray->clearNotify();
     emit messageReplyed();
 }
 

@@ -53,6 +53,16 @@ Systray::Systray(QObject *parent)
     trayIcon->setIcon(*Global::iconSet.value(m_iconKey));
     trayIcon->setContextMenu(trayIconMenu);
     trayIcon->setToolTip(tr("IP Messenger(%1)").arg(0));
+
+    //Icon twinkle
+    m_timer = new QTimer (this);
+    m_timer->setSingleShot(false);
+    m_timer->setInterval(650);
+    connect(m_timer,SIGNAL(timeout()),this,SLOT(twinkleIcon()));
+
+    //connect(trayicon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)), 
+    //        this, SLOT(onSystemTrayIconClicked(QSystemTrayIcon::ActivationReason)));
+ 
 }
 
 Systray::~Systray()
@@ -167,6 +177,7 @@ void Systray::createConnections()
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(about()));
     connect(aboutQtAction, SIGNAL(triggered()), qApp, SLOT(aboutQt()));
     connect(quitAction, SIGNAL(triggered()), this, SLOT(quit()));
+
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
 
@@ -206,6 +217,11 @@ void Systray::quit()
 
 void Systray::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
+    //stop twinkle
+    m_timer->stop();
+    trayIcon->setIcon(*Global::iconSet.value("normal"));
+    qDebug() << "twinkle Stop! " << endl;
+
     switch (reason) {
     case QSystemTrayIcon::Trigger:
         Global::windowManager->visibleAllMsgReadedWindow();
@@ -230,6 +246,7 @@ void Systray::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
     default:
         break;
     }
+
 }
 
 void Systray::createMainWindow()
@@ -307,3 +324,60 @@ void Systray::updateTransferCount(int count)
         ->setText(tr("Show file transfer monitor (%1)").arg(count));
 }
 
+void Systray::notifyMessage(ChatWindow* pcw /* = NULL*/)
+{
+    qDebug() << "chat window visible" << pcw->windowState().testFlag(Qt::WindowActive) << 
+        pcw->windowFlags().testFlag(Qt::WindowStaysOnTopHint) << endl;
+    //if(NULL != pcw && (pcw->windowFlags() & Qt::WindowStaysOnTopHint))
+    if(NULL != pcw && (pcw->windowState() & Qt::WindowActive))
+    {
+        qDebug() << "chat window visible" <<  pcw->windowState() << endl;
+        return ; //do nothing if window is visible
+    }
+    
+    m_timer->start(); 
+    qDebug() << "twinkle start!" << endl;
+}
+
+void Systray::twinkleIcon()
+{
+    if (Global::windowManager->hidedMsgWindowCount() <= 0) 
+    {
+        //m_timer->stop();
+        //trayIcon->setIcon(*Global::iconSet.value("normal"));
+        //qDebug() << "twinkle Stop! " << endl;
+    }
+
+    //change icon
+    if (m_iconKey == "normal") 
+    {
+        m_iconKey = "receive";
+    } 
+    else
+    {
+        m_iconKey = "normal";
+    }
+    qDebug() << "twinkle : " << m_iconKey << endl;
+
+    trayIcon->setIcon(*Global::iconSet.value(m_iconKey));
+}
+
+//void Systray::onSystemTrayIconClicked(QSystemTrayIcon::ActivationReason reason)
+//{
+//    switch(reason)
+//    {
+//    case QSystemTrayIcon::Trigger:
+//    case QSystemTrayIcon::DoubleClick:
+//        m_timer.stop();
+//        trayIcon->setIcon(*Global::iconSet.value("normal"));
+//          break;
+//    default:
+//          break;
+//    }
+//}
+ 
+void Systray::clearNotify()
+{
+    m_timer->stop();
+    trayIcon->setIcon(*Global::iconSet.value("normal"));
+}

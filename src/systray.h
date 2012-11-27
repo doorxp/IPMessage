@@ -20,8 +20,10 @@
 #include <QObject>
 #include <QMap>
 #include <QList>
+#include <QTimer>
 #include <QSystemTrayIcon>
 #include "msg_window.h"
+#include "chat_window.h"
 #include "msg.h"
 
 class QAction;
@@ -43,12 +45,18 @@ public:
 
     QList<MainWindow *> mainWindowList;
 
+    //icon twinkle
+    void notifyMessage(ChatWindow* pw = NULL);
+    void clearNotify();
+
 protected:
     void timerEvent(QTimerEvent *event);
 
 private slots:
     void updateToolTip(int i);
     void updateTransferCount(int);
+    void twinkleIcon();
+//    void onSystemTrayIconClicked(QSystemTrayIcon::ActivationReason re);
 
 private slots:
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);
@@ -89,6 +97,7 @@ private:
     QMenu *trayIconMenu;
 
     QString m_iconKey;
+    QTimer *m_timer;
 };
 
 #endif // !SYSTRAY_H
