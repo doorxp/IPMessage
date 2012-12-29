@@ -94,7 +94,7 @@ void ChatWindow::createConnections()
     connect(sendButton, SIGNAL(clicked()),
             this, SLOT(sendMessage()));
 
-    connect(new QShortcut(tr("Ctrl+D"), inputEdit), SIGNAL(activated()),
+    connect(new QShortcut(tr("Ctrl+Return"), inputEdit), SIGNAL(activated()),
             this, SLOT(sendMessage()));
 
     connect(Global::userManager, SIGNAL(userCountUpdated(int)),
