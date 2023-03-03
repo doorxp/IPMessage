@@ -18,8 +18,12 @@
 #define SOUND_H
 
 #include <QString>
-
-#include <alsa/asoundlib.h>
+typedef int snd_pcm_uframes_t;
+typedef int snd_pcm_t;
+typedef int snd_pcm_format_t;
+typedef void* snd_output_t;
+typedef int snd_pcm_stream_t;
+// #include <alsa/asoundlib.h>
 
 class Sound
 {

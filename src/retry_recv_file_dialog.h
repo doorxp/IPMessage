@@ -17,7 +17,7 @@
 #ifndef RETRY_RECV_FILE_DIALOG_H
 #define RETRY_RECV_FILE_DIALOG_H
 
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 
 class QLabel;
 class QPushButton;

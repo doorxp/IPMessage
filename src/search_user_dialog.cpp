@@ -17,7 +17,7 @@
 #include "search_user_dialog.h"
 #include "global.h"
 #include "preferences.h"
-
+#include <QtWidgets/QtWidgets>
 #include <QtGui>
 #include <QtCore>
 

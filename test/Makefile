@@ -1,5 +1,5 @@
-QMAKE=qmake-qt4
-LRELEASE=lrelease-qt4
+QMAKE=qmake
+LRELEASE=lrelease-qt5
 
 test:
 	cd send-msg && $(QMAKE) && make

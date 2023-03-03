@@ -17,7 +17,7 @@
 #ifndef TRANSFER_FILE_WINDOW_H
 #define TRANSFER_FILE_WINDOW_H
 
-#include <QWidget>
+#include <QtWidgets/QtWidgets>
 #include <QTableWidget>
 
 class TransferFileModel;

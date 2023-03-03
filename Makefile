@@ -12,8 +12,8 @@ APP_PIXMAPS=$(PREFIX)/share/pixmaps
 APP_ICONS=$(PREFIX)/share/icons/hicolor
 APP_LINK=$(PREFIX)/share/applications
 
-QMAKE=qmake-qt4
-LRELEASE=lrelease-qt4
+QMAKE=qmake
+LRELEASE=lrelease-qt5
 
 DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
 	 TRANSLATION_PATH=\\\"$(TRANSLATION_PATH)\\\" \

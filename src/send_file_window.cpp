@@ -59,7 +59,7 @@ void SendFileWindow::createSendFileView(SendFileModel *sendFileModel)
 
     sendFileView->setSortingEnabled(false);
     sendFileView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    sendFileView->horizontalHeader()->setMovable(false);
+    sendFileView->horizontalHeader()->setSectionsMovable(false);
     sendFileView->verticalHeader()->hide();
     sendFileView->setSelectionBehavior(QAbstractItemView::SelectRows);
     sendFileView->setTabKeyNavigation(false);

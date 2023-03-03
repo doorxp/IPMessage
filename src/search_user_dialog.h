@@ -17,7 +17,7 @@
 #ifndef SEARCH_USER_DIALOG_H
 #define SEARCH_USER_DIALOG_H
 
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 #include <QString>
 
 class QComboBox;

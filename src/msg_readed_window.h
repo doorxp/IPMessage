@@ -17,8 +17,7 @@
 #ifndef MSG_READED_WINDOW_H
 #define MSG_READED_WINDOW_H
 
-#include <QWidget>
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 
 class QPushButton;
 

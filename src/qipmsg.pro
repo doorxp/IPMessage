@@ -1,8 +1,7 @@
 TEMPLATE = app
 
 CONFIG += qt warn_on release
-
-QT += network
+QT += network widgets
 LIBS += -lasound
 
 RESOURCES = icons.qrc

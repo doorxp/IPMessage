@@ -17,7 +17,7 @@
 #ifndef RECV_FILE_FINISH_DIALOG_H
 #define RECV_FILE_FINISH_DIALOG_H
 
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 
 class QLabel;
 class QPushButton;

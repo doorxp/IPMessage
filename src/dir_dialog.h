@@ -17,8 +17,8 @@
 #ifndef DIR_DIALOG_H
 #define DIR_DIALOG_H
 
-#include <QDialog>
 #include <QFileInfo>
+#include <QtWidgets/QtWidgets>
 
 class QDirModel;
 class QTreeView;

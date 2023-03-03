@@ -122,7 +122,7 @@ void ChatWindow::createPeerWidget()
     userView->setModel(proxyUserModel);
     userView->setSortingEnabled(true);
     userView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    userView->horizontalHeader()->setMovable(true);
+    userView->horizontalHeader()->setSectionsMovable(true);
     userView->verticalHeader()->hide();
     userView->setSelectionBehavior(QAbstractItemView::SelectRows);
     userView->setTabKeyNavigation(false);

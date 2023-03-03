@@ -17,8 +17,7 @@
 #ifndef SETUP_WINDOW_H
 #define SETUP_WINDOW_H
 
-#include <QWidget>
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 
 class QCheckBox;
 class QComboBox;

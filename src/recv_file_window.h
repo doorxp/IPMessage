@@ -17,7 +17,7 @@
 #ifndef RECV_FILE_WINDOW_H
 #define RECV_FILE_WINDOW_H
 
-#include <QWidget>
+#include <QtWidgets/QtWidgets>
 #include <QModelIndexList>
 
 class QVBoxLayout;

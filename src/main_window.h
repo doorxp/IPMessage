@@ -21,6 +21,7 @@
 #include "send_file_map.h"
 #include "search_user_dialog.h"
 
+#include <QtWidgets/QtWidgets>
 #include <QMainWindow>
 #include <QIcon>
 #include <QSystemTrayIcon>

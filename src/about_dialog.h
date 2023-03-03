@@ -17,7 +17,7 @@
 #ifndef ABOUT_DIALOG_H
 #define ABOUT_DIALOG_H
 
-#include <QDialog>
+#include <QtWidgets/QtWidgets>
 #include <QString>
 
 class QWidget;

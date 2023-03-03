@@ -171,7 +171,7 @@ void RecvFileWindow::createRecvFileView()
 
     recvFileView->setSortingEnabled(false);
     recvFileView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    recvFileView->horizontalHeader()->setMovable(false);
+    recvFileView->horizontalHeader()->setSectionsMovable(false);
     recvFileView->verticalHeader()->hide();
     recvFileView->setSelectionBehavior(QAbstractItemView::SelectRows);
     recvFileView->setTabKeyNavigation(false);

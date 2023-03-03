@@ -16,7 +16,7 @@
 
 #include <QtCore>
 #include <QtGui>
-
+#include <QtWidgets/QtWidgets>
 #include <unistd.h>     // For usleep()
 
 #include "qipmsg.h"
@@ -32,14 +32,14 @@
 #include "constants.h"
 
 static void createHomeDirectory();
-static void myMessageOutput(QtMsgType type, const char *msg);
+static void myMessageOutput(QtMsgType type, const QMessageLogContext& ctx, const QString& msg);
 static void checkTcpServerError();
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    qInstallMsgHandler(myMessageOutput);
+    qInstallMessageHandler(myMessageOutput);
 
     qRegisterMetaType<Msg>("Msg");
     qRegisterMetaType<QAbstractSocket::SocketError>("QAbstractSocket::SocketError");
@@ -105,9 +105,8 @@ static void createHomeDirectory()
     }
 }
 
-static void myMessageOutput(QtMsgType type, const char *msg) {
-    QString line = "[" + QTime::currentTime().toString() + "] " +
-        QString::fromUtf8(msg);
+static void myMessageOutput(QtMsgType type, const QMessageLogContext& ctx, const QString& msg) {
+    QString line = "[" + QTime::currentTime().toString() + "] " + msg;
 
     switch (type) {
         case QtDebugMsg:
